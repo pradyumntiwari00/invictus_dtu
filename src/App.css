@@ -1,0 +1,12 @@
+.sponsor{
+    font-family: 'Noto Serif', serif;
+}
+.sp{
+    font-family: 'Playfair Display', serif;
+}
+.btn{
+    font-family: 'Oswald', sans-serif;
+}
+.OurSponsers, .WhySponser {
+    background-image: url('./components/bg_image.jpg');
+}
