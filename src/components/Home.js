@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ConfigDark from "../config/particlesjs-config.json";
-import ConfigLight from "../config/particlesjs-config-light.json";
 import Navbar from "./Navbar";
 
 const Home = () => {
