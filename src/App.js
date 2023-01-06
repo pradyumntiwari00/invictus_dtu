@@ -1,15 +1,14 @@
-import "./App.css";
-import Home from "./components/Home";
-import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import "locomotive-scroll/dist/locomotive-scroll.css";
-import { useRef } from "react";
-import About from "./components/About";
+import './App.css';
+import OurSponsers from './components/OurSponsers.js';
+import WhySponser from './components/WhySponser.js';
+import Accordion from './components/Accordion.jsx';
 function App() {
   return (
-    <div>
-      <Home />
-      <About />
-    </div>
+    <>
+    <OurSponsers/>
+    <WhySponser/>
+    <Accordion/>
+    </>
   );
 }
 
