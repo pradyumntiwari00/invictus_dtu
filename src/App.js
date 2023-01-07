@@ -7,6 +7,9 @@ import Highlights from "./components/highlights";
 // import Sponser_tab from "./components/Sponser_tab";
 import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
+import OurSponsers from "./components/OurSponsers.js";
+import WhySponser from "./components/WhySponser.js";
+import Accordion from "./components/Accordion.jsx";
 const events = ["Blogs", "Hackathon", "Quiz"];
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
       {/* <Sponser_tab /> */}
       <Highlights />
       {/* <Teams /> */}
+      <OurSponsers />
+      <WhySponser />
+      <Accordion />
       <Events event={events[2]} />
       <Footer />
     </div>
