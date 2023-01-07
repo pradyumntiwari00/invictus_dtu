@@ -16,12 +16,12 @@ function App() {
   return (
     <div>
       <div style={{ width: "400px" }}>HI</div>
-      {/* <Home /> */}
+      <Home />
       <About />
       {/* <Sponser_tab /> */}
-      <Highlights />
+      {/* <Highlights /> */}
       {/* <Teams /> */}
-      <OurSponsers />
+      {/* <OurSponsers /> */}
       <WhySponser />
       <Accordion />
       <Events event={events[2]} />
