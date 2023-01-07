@@ -23,7 +23,7 @@ const Navbar = () => {
           Home
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Home
+          Our Team
         </div>
         <div
           className="menuItem"
@@ -31,7 +31,7 @@ const Navbar = () => {
           onMouseLeave={onMouseLeavee}
           onClick={() => setDropdown(true)}
         >
-          Home
+          Quizzes
           {dropdown && (
             <Dropdown
               onMouseEnter={onMouseEnterr}
@@ -40,13 +40,13 @@ const Navbar = () => {
           )}
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Home
+          Hackathon
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Home
+          Submit
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Home
+          Seminars
         </div>
       </div>
     </div>
