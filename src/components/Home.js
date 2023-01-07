@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ConfigDark from "../config/particlesjs-config.json";
-import ConfigLight from "../config/particlesjs-config-light.json";
+import Navbar from "./Navbar";
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -116,11 +116,12 @@ const Home = () => {
   return (
     <div className="main">
       <div className="container">
+        <Navbar />
         <img src={require("../images/final 1.png")} className="bg1" alt="" />
 
         <img
           src={require("../images/layer.png")}
-          className="left"
+          className="leftt"
           alt=""
           style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
         />
