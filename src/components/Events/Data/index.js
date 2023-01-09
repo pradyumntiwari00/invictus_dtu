@@ -4,7 +4,7 @@ import { Quiz } from "./Quiz";
 
 const EventsData = {
     Blogs: Blog,
+    Quiz: Quiz,
     Hackathon: Hackathon,
-    Quiz: Quiz
 }
 export default EventsData;

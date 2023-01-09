@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ConfigDark from "../config/particlesjs-config.json";
-import Navbar from "./Navbar";
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -116,7 +115,6 @@ const Home = () => {
   return (
     <div className="main">
       <div className="container">
-        <Navbar />
         <img src={require("../images/final 1.png")} className="bg1" alt="" />
 
         <img

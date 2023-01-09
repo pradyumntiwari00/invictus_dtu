@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
 import "./Navbar.css";
 
@@ -14,24 +15,25 @@ const Navbar = () => {
   };
 
   return (
-    <div class="nav_container">
+    <div className="nav_container">
       <div className={"menuItems " + (click ? "show" : "")}>
         <div className="menuBtn" onClick={() => setClick(!click)}>
           <img src={require("../images/invictuslogo.png")} alt="" />
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Home
+          <Link to="/">Home</Link>
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Our Team
+          <Link to="/teams">Our Home</Link>
         </div>
+
         <div
           className="menuItem"
           onMouseEnter={onMouseEnterr}
           onMouseLeave={onMouseLeavee}
           onClick={() => setDropdown(true)}
         >
-          Quizzes
+          <Link to="/quizzes">Quizzes</Link>
           {dropdown && (
             <Dropdown
               onMouseEnter={onMouseEnterr}
@@ -40,13 +42,13 @@ const Navbar = () => {
           )}
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Hackathon
+          <Link to="/hackaton">Hackathon</Link>
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Submit
+          <Link to="/Summit">Summit</Link>
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          Seminars
+          <Link to="/Seminars">Seminars</Link>
         </div>
       </div>
     </div>

@@ -14,13 +14,13 @@ const Footer = () => {
       <ContactUs />
       <ul className="Footer_social_icon">
         <li>
-          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" className="fa fa-facebook"></a>
         </li>
         <li>
-          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" className="fa fa-linkedin"></a>
         </li>
         <li>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" className="fa fa-instagram"></a>
         </li>
       </ul>
       <ul className="Footer_menu">

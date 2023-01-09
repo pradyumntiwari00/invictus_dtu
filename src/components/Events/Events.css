@@ -6,6 +6,8 @@
   text-align: center;
   flex-direction: column;
   background: black;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
 }
 .Events_Section > h2 {
   font-size: 6em;

@@ -5,7 +5,9 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  background: linear-gradient(to right,#992d75,#4b2aad)
+  background: linear-gradient(to right,#992d75,#4b2aad);
+  margin-top: 3rem;
+  margin-bottom: 10rem;
 }
 .Teams_Section > h2 {
   font-size: 6em;

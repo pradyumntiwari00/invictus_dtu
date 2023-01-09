@@ -1,30 +1,40 @@
 import "./App.css";
-import Home from "./components/Home";
+import { Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import "locomotive-scroll/dist/locomotive-scroll.css";
-import About from "./components/About";
+
 import Teams from "./components/Teams/Teams";
-import Highlights from "./components/highlights";
-// import Sponser_tab from "./components/Sponser_tab";
 import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
-import OurSponsers from "./components/OurSponsers.js";
-import WhySponser from "./components/WhySponser.js";
-import Accordion from "./components/Accordion.jsx";
-const events = ["Blogs", "Hackathon", "Quiz"];
+import HomePage from "./components/HomePage";
+import { BrowserRouter } from "react-router-dom";
+const events = ["Blogs", "Quiz", "Hackathon"];
 
 function App() {
   return (
     <div>
-      <div style={{ width: "400px" }}>HI</div>
-      <Home />
-      <About />
-      {/* <Sponser_tab /> */}
-      {/* <Highlights /> */}
-      {/* <Teams /> */}
-      {/* <OurSponsers /> */}
-      <WhySponser />
-      <Accordion />
-      <Events event={events[2]} />
+      <BrowserRouter forceRefresh={true}>
+        {/* <Navbar /> */}
+        <Switch></Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route exact  path="/teams">
+          <Teams />
+        </Route>
+        <Route exact  path="/quizzes">
+          <Events event={events[1]} />
+        </Route>
+        <Route exact  path="/hackaton">
+          <Events event={events[2]} />
+        </Route>
+        <Route exact  path="/summit">
+          <Events event={events[3]} />
+        </Route>
+        {/* <Route exact  path="/Seminars">
+          <Events event={events[4]} />
+        </Route> */}
+      </BrowserRouter>
       <Footer />
     </div>
   );
