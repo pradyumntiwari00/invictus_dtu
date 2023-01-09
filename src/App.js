@@ -1,7 +1,7 @@
 import './App.css';
 import OurSponsers from './components/OurSponsers.js';
 import WhySponser from './components/WhySponser.js';
-import Accordion from './components/Accordion.jsx';
+import Accordion from './components/Accordion.js';
 function App() {
   return (
     <>
