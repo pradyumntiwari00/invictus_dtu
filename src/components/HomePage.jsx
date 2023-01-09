@@ -4,7 +4,7 @@ import Highlights from "./highlights";
 // import Sponser_tab from "./Sponser_tab";
 import OurSponsers from "./OurSponsers.js";
 import WhySponser from "./WhySponser.js";
-import Accordion from "./Accordion.jsx";
+import Accordion from "./Accordion.js";
 
 
 const HomePage = () => {
@@ -13,10 +13,10 @@ const HomePage = () => {
       <Home />
       <About />
       {/* <Sponser_tab /> */}
-      <Highlights />
+      {/* <Highlights /> */}
       {/* <OurSponsers />
       <WhySponser /> */}
-      <Accordion />
+      {/* <Accordion /> */}
     </div>
   );
 };

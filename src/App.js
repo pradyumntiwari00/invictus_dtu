@@ -15,25 +15,26 @@ function App() {
     <div>
       <BrowserRouter forceRefresh={true}>
         {/* <Navbar /> */}
-        <Switch></Switch>
-        <Route exact path="/">
-          <HomePage />
-        </Route>
-        <Route exact  path="/teams">
-          <Teams />
-        </Route>
-        <Route exact  path="/quizzes">
-          <Events event={events[1]} />
-        </Route>
-        <Route exact  path="/hackaton">
-          <Events event={events[2]} />
-        </Route>
-        <Route exact  path="/summit">
-          <Events event={events[3]} />
-        </Route>
-        {/* <Route exact  path="/Seminars">
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route exact path="/teams">
+            <Teams />
+          </Route>
+          <Route exact path="/quizzes">
+            <Events event={events[1]} />
+          </Route>
+          <Route exact path="/hackaton">
+            <Events event={events[2]} />
+          </Route>
+          <Route exact path="/summit">
+            <Events event={events[3]} />
+          </Route>
+          {/* <Route exact  path="/Seminars">
           <Events event={events[4]} />
         </Route> */}
+        </Switch>
       </BrowserRouter>
       <Footer />
     </div>
