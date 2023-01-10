@@ -9,8 +9,8 @@
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgb(11,17,134);
+  color: whitesmoke;
   cursor: pointer;
   padding: 18px;
   display: flex;
@@ -24,7 +24,7 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .accordion:hover,
 .active {
-  background-color: #ccc;
+  background-color: rgb(16, 23, 165);
 }
 
 /* Style the accordion content title */
@@ -47,7 +47,8 @@
 
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-  background-color: white;
+  background-color: rgb(11,17,134);
+  color: whitesmoke;
   overflow: hidden;
   transition: max-height 0.6s ease;
 }

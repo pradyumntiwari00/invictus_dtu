@@ -6,7 +6,7 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import Teams from "./components/Teams/Teams";
 import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/Home/HomePage";
 import { BrowserRouter } from "react-router-dom";
 const events = ["Blogs", "Quiz", "Hackathon"];
 

@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ConfigDark from "../../config/particlesjs-config.json";
+import Navbar from "../Navbar/index";
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -114,7 +115,8 @@ const Home = () => {
 
   return (
     <div className="Home_main">
-      <div className="Home_container">
+      <div className="Home_containerr">
+        {/* <Navbar /> */}
         <img src={require("../../images/final 1.png")} className="Home_bg1" alt="" />
 
         <img
@@ -123,57 +125,57 @@ const Home = () => {
           alt=""
           style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
         />
-        <div className="Home_flex">
+        <div className="Home_flexi">
           <h1
-            className="Home_a"
+            className="a"
             // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
           >
             1
           </h1>
           <h1
-            className="Home_b"
+            className="b"
             // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           >
             9
           </h1>
           <h1
-            className="Home_c"
+            className="c"
             // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
           >
             J
           </h1>
           <h1
-            className="Home_d"
+            className="d"
             // style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
           >
             A
           </h1>
           <h1
-            className="Home_e"
+            className="e"
             // style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
           >
             N
           </h1>
           <h1
-            className="Home_f"
+            className="f"
             // style={{ transform: `translateY(-${offsetY * 0.7}px)` }}
           >
             U
           </h1>
           <h1
-            className="Home_g"
+            className="g"
             // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
           >
             A
           </h1>
           <h1
-            className="Home_h"
+            className="h"
             // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           >
             R
           </h1>
           <h1
-            className="Home_i"
+            className="i"
             // style={{ transform: `translateY(-${offsetY * 0.6}px)` }}
           >
             Y
@@ -200,14 +202,14 @@ const Home = () => {
           recusandae impedit ipsam sapiente.
         </p>
       </div>
-      <div className="Home_intro">
-        <div className="Home_intro-text">
-          <h1 className="Home_hide">
-            <span className="Home_text">Invictus</span>
+      <div className="intro">
+        <div className="intro-text">
+          <h1 className="hide">
+            <span className="text">INVICTUS</span>
           </h1>
         </div>
       </div>
-      <div className="Home_slider"></div>
+      <div className="slider"></div>
     </div>
   );
 };

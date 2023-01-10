@@ -5,16 +5,7 @@ import Component from "./Component";
 import "./index.css";
 
 const index = () => {
-  const [active, setActive] = useState(false);
-  const content = useRef(null);
-  const [height, setHeight] = useState("0px");
 
-  useEffect(() => {}, [height]);
-
-  function toggleAccordion() {
-    setActive(!active);
-    setHeight(active ? "0px" : `1500px`);
-  }
   return (
     <div className="flex flex-col justify-center items-center p-4">
       <h1 className="text-white mb-4 text-3xl" >FAQ</h1>

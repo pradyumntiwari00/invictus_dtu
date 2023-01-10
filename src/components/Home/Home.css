@@ -2,63 +2,63 @@
   height: 100%;
   width: 100%;
 }
-.Home_container {
+.Home_containerr {
   height: 100vh;
   color: #000000;
   position: relative;
 }
-.Home_container img {
+.Home_containerr img {
   width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 0;
 }
 
-.Home_flex {
+.Home_flexi {
   display: flex;
   position: absolute;
   z-index: 1;
   color: #fb9fb4;
-  top: 500px;
-  font-weight: 500;
-  font-size: 50px;
+  top: 550px;
+  font-weight: 600;
+  font-size: 100px;
   left: 600px;
 }
 
-.Home_a {
+.a {
   opacity: 0;
   transform: translateY(300px);
 }
-.Home_b {
+.b {
   opacity: 0;
   transform: translateY(300px);
 }
-.Home_h {
+.h {
   opacity: 0;
   transform: translateY(300px);
 }
-.Home_i {
+.i {
   opacity: 0;
   transform: translateY(200px);
 }
-.Home_c {
+.c {
   opacity: 0;
   transform: translateY(150px);
 }
 
-.Home_g {
+.g {
   opacity: 0;
   transform: translateY(150px);
 }
 
-.Home_d {
+.d {
   opacity: 0;
   transform: translateY(100px);
 }
-.Home_f {
+.f {
   transform: translateY(100px);
 }
-.Home_e {
+.e {
   opacity: 0;
   transform: translateY(100px);
 }
@@ -81,7 +81,7 @@
   z-index: 0;
 }
 
-.Home_intro {
+.intro {
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -95,8 +95,8 @@
   text-align: center;
 }
 
-.Home_slider {
-  background-color: #fefbf1;
+.slider {
+  background-color: #6a0b32;
   position: fixed;
   top: 0;
   left: 0;
@@ -106,27 +106,28 @@
   transform: translateY(110%);
 }
 
-.Home_intro-text h1 {
-  color: #ffca7b;
+.intro-text h1 {
+  color: #d9258c;
   font-size: 70px;
+  font-weight: 600;
 }
 
-.Home_hide {
+.hide {
   background-color: #000000;
   overflow: hidden;
   padding: 2px;
 }
 
-.Home_hide span {
+.hide span {
   transform: translateY(100%);
   display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {
-  .Home_flex {
-    top: 70%;
+  .Home_flexi {
+    top: 75%;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 50px;
     left: 25%;
   }
 
@@ -136,5 +137,9 @@
 
   .Home_leftt {
     object-fit: cover;
+  }
+  .intro-text h1 {
+    font-size: 25px;
+    font-weight: 600;
   }
 }
