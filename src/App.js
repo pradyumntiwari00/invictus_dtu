@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter forceRefresh={true}>
-        {/* <Navbar /> */}
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <HomePage />

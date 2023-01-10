@@ -24,7 +24,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
-          <Link to="/teams">Our Home</Link>
+          <Link to="/teams">Teams</Link>
         </div>
 
         <div

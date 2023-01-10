@@ -1,7 +1,7 @@
 import React from 'react'
 export default function WhySponser() {
   return (
-    <div className="WhySponser  mt-8"> 
+    <div className="WhySponser"> 
         <div className='sponsor text-6xl text-black-900 text-center mb-24'>
          Why Sponser Us?
         </div>
