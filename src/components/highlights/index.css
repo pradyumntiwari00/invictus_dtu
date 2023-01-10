@@ -1,45 +1,44 @@
-.container{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
+.highlights{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding-bottom: 2rem;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
-    text-align: center;
-    color: bisque;
-    padding: 2rem 0;
+    margin-bottom: -3rem;
 }
 
-.img-btns{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.img-cont{
     height: 100%;
-    width: 100%;
+    z-index: -1;
+    background-color: #000;
+    margin: 0 100px;
 }
 
-.btn{
-    background-color: transparent;
-    border: 0;
-    color: white;
-    font-size: 2.5rem;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    margin: 0 2rem;
-    padding: 8px;
-    border-radius: 100%;
+.main-slider{
+    margin-top: 4rem;
 }
 
-.btn:hover{
-    background-color: bisque;
-    scale: 1.2;
+.carousel .control-dots .dot{
+    background-color: white;
+    z-index: 100;
+}
+
+
+.carousel .control-dots .dot.selected{
+    background-color: #000;
+}
+
+.carousel .control-dots .dot:hover{
+    background-color: #000;
+}
+
+.carousel{
+    margin-top: 4rem;
+    text-align: center;
 }

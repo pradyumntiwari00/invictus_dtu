@@ -16,6 +16,7 @@ const HomePage = () => {
       {/* <Highlights /> */}
       <OurSponsers />
       <WhySponser />
+      <Highlights />
       <FAQ />
     </div>
   );
