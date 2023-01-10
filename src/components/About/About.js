@@ -9,61 +9,61 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about">
-      <div className="roww">
-        <div className="col1">
-          <div className="icons">
+    <div className="About">
+      <div className="About_roww">
+        <div className="About_col1">
+          <div className="About_icons">
             <img
               src={require("../../images/astronaut.png")}
               data-aos="fade-up"
-              className="ico first-left"
+              className="About_ico About_first-left"
               alt=""
             />
             <img
               src={require("../../images/constellation.png")}
               data-aos="fade-up"
-              className="ico second-left"
+              className="About_ico About_second-left"
               alt=""
             />
             <img
               src={require("../../images/galaxy.png")}
               data-aos="fade-up"
-              className="ico third-left"
+              className="About_ico About_third-left"
               alt=""
             />
             <img
               src={require("../../images/planet.png")}
               data-aos="fade-up"
-              className="ico fourth-left"
+              className="About_ico About_fourth-left"
               alt=""
             />
             <img
               src={require("../../images/satellite.png")}
               data-aos="fade-up"
-              className="ico fifth-left"
+              className="About_ico About_fifth-left"
               alt=""
             />
             <img
               src={require("../../images/saturn.png")}
               data-aos="fade-up"
-              className="ico sixth-left"
+              className="About_ico About_sixth-left"
               alt=""
             />
             <img
               src={require("../../images/space.png")}
               data-aos="fade-up"
-              className="ico seventh-left"
+              className="About_ico About_seventh-left"
               alt=""
             />
             <img
               src={require("../../images/startup.png")}
               data-aos="fade-up"
-              className="ico eighth-left"
+              className="About_ico About_eighth-left"
               alt=""
             />
           </div>
         </div>
-        <div className="contentt">
+        <div className="About_contentt">
           <h1>About Invictus</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
@@ -75,54 +75,54 @@ const About = () => {
             qui at quidem, doloremque similique enim vel totam beatae.
           </p>
         </div>
-        <div className="col1">
-          <div className="icons">
+        <div className="About_col1">
+          <div className="About_icons">
             <img
               src={require("../../images/astronaut.png")}
               data-aos="fade-up"
-              className="ico first-right"
+              className="About_ico About_first-right"
               alt=""
             />
             <img
               src={require("../../images/constellation.png")}
               data-aos="fade-up"
-              className="ico second-right"
+              className="About_ico About_second-right"
               alt=""
             />
             <img
               src={require("../../images/galaxy.png")}
               data-aos="fade-up"
-              className="ico third-right"
+              className="About_ico About_third-right"
               alt=""
             />
             <img
               src={require("../../images/planet.png")}
               data-aos="fade-up"
-              className="ico fourth-right"
+              className="About_ico About_fourth-right"
               alt=""
             />
             <img
               src={require("../../images/satellite.png")}
               data-aos="fade-up"
-              className="ico fifth-right"
+              className="About_ico About_fifth-right"
               alt=""
             />
             <img
               src={require("../../images/saturn.png")}
               data-aos="fade-up"
-              className="ico sixth-right"
+              className="About_ico About_sixth-right"
               alt=""
             />
             <img
               src={require("../../images/space.png")}
               data-aos="fade-up"
-              className="ico seventh-right"
+              className="About_ico About_seventh-right"
               alt=""
             />
             <img
               src={require("../../images/startup.png")}
               data-aos="fade-up"
-              className="ico eighth-right"
+              className="About_ico About_eighth-right"
               alt=""
             />
           </div>

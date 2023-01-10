@@ -113,67 +113,67 @@ const Home = () => {
   };
 
   return (
-    <div className="main">
-      <div className="container">
-        <img src={require("../../images/final 1.png")} className="bg1" alt="" />
+    <div className="Home_main">
+      <div className="Home_container">
+        <img src={require("../../images/final 1.png")} className="Home_bg1" alt="" />
 
         <img
           src={require("../../images/layer.png")}
-          className="leftt"
+          className="Home_leftt"
           alt=""
           style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
         />
-        <div className="flex">
+        <div className="Home_flex">
           <h1
-            className="a"
+            className="Home_a"
             // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
           >
             1
           </h1>
           <h1
-            className="b"
+            className="Home_b"
             // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           >
             9
           </h1>
           <h1
-            className="c"
+            className="Home_c"
             // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
           >
             J
           </h1>
           <h1
-            className="d"
+            className="Home_d"
             // style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
           >
             A
           </h1>
           <h1
-            className="e"
+            className="Home_e"
             // style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
           >
             N
           </h1>
           <h1
-            className="f"
+            className="Home_f"
             // style={{ transform: `translateY(-${offsetY * 0.7}px)` }}
           >
             U
           </h1>
           <h1
-            className="g"
+            className="Home_g"
             // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
           >
             A
           </h1>
           <h1
-            className="h"
+            className="Home_h"
             // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           >
             R
           </h1>
           <h1
-            className="i"
+            className="Home_i"
             // style={{ transform: `translateY(-${offsetY * 0.6}px)` }}
           >
             Y
@@ -181,10 +181,10 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="content"
+        className="Home_content"
         style={{ transform: `translateY(-${offsetY * 1.2}px)` }}
       >
-        <div className="box">
+        <div className="Home_box">
           <Particles
             id="tsparticles"
             style={{ position: "absolute", top: 0 }}
@@ -200,14 +200,14 @@ const Home = () => {
           recusandae impedit ipsam sapiente.
         </p>
       </div>
-      <div className="intro">
-        <div className="intro-text">
-          <h1 className="hide">
-            <span className="text">Invictus</span>
+      <div className="Home_intro">
+        <div className="Home_intro-text">
+          <h1 className="Home_hide">
+            <span className="Home_text">Invictus</span>
           </h1>
         </div>
       </div>
-      <div className="slider"></div>
+      <div className="Home_slider"></div>
     </div>
   );
 };

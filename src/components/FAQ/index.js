@@ -16,39 +16,24 @@ const index = () => {
     setHeight(active ? "0px" : `1500px`);
   }
   return (
-    <>
+    <div className="flex flex-col justify-center items-center p-4">
+      <h1 className="text-white mb-4 text-3xl" >FAQ</h1>
       <div className="accordion__section">
-        <div
-          className={`accordion ${active ? "active" : ""}`}
-          onClick={toggleAccordion}
-        >
-          <p className="accordion__title">FAQ</p>
-          <span style={{ marginLeft: "20px" }}>{active ? "-" : "+"}</span>
-        </div>
-        <div
-          ref={content}
-          style={{ maxHeight: `${height}` }}
-          className="accordion__content"
-        >
-          <Component
-            title="First Accordion"
-            content="First Accordion content"
-          />
-          <Component
-            title="Second Accordion"
-            content="Second Accordion content"
-          />
-          <Component
-            title="Third Accordion"
-            content=" <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <Component title="First Accordion" content="First Accordion content" />
+        <Component
+          title="Second Accordion"
+          content="Second Accordion content"
+        />
+        <Component
+          title="Third Accordion"
+          content=" <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-          />
-        </div>
+        />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -16,19 +16,19 @@ const Navbar = () => {
 
   return (
     <div className="nav_container">
-      <div className={"menuItems " + (click ? "show" : "")}>
-        <div className="menuBtn" onClick={() => setClick(!click)}>
+      <div className={"nav_menuItems " + (click ? "show" : "")}>
+        <div className="nav_menuBtn" onClick={() => setClick(!click)}>
           <img src={require("../../images/invictuslogo.png")} alt="" />
         </div>
-        <div className="menuItem" onClick={() => setClick(false)}>
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/">Home</Link>
         </div>
-        <div className="menuItem" onClick={() => setClick(false)}>
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/teams">Teams</Link>
         </div>
 
         <div
-          className="menuItem"
+          className="nav_menuItem"
           onMouseEnter={onMouseEnterr}
           onMouseLeave={onMouseLeavee}
           onClick={() => setDropdown(true)}
@@ -41,13 +41,13 @@ const Navbar = () => {
             />
           )}
         </div>
-        <div className="menuItem" onClick={() => setClick(false)}>
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/hackaton">Hackathon</Link>
         </div>
-        <div className="menuItem" onClick={() => setClick(false)}>
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/Summit">Summit</Link>
         </div>
-        <div className="menuItem" onClick={() => setClick(false)}>
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/Seminars">Seminars</Link>
         </div>
       </div>

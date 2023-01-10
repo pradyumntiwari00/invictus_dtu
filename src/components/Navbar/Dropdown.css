@@ -1,4 +1,4 @@
-.dropdown-menuu {
+.nav_dropdown-menuu {
   background: black;
   width: 200px;
   position: absolute;
@@ -33,16 +33,16 @@
   transform: translateX(-50%);
 }
 
-.dropdown-menuu li {
+.nav_dropdown-menuu li {
   background: transparent;
   cursor: pointer;
 }
 
-/* .dropdown-menuu li:hover {
+/* .nav_dropdown-menuu li:hover {
     background: #5cabff;
   } */
 
-.dropdown-menuu.clicked {
+.nav_dropdown-menuu.clicked {
   display: none;
 }
 
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .dropdown-menuu {
+  .nav_dropdown-menuu {
     display: none;
   }
 }

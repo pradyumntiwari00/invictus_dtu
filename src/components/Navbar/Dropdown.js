@@ -11,13 +11,13 @@ function Dropdown({ onMouseEnter, onMouseLeave }) {
       <ul
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
-        className={click ? "dropdown-menuu clicked" : "dropdown-menuu"}
+        className={click ? "nav_dropdown-menuu nav_clicked" : "nav_dropdown-menuu"}
       >
         <span className="arrow"></span>
-        <li className="dropdown-link">Event 1</li>
-        <li className="dropdown-link">Event 2</li>
-        <li className="dropdown-link">Event 3</li>
-        <li className="dropdown-link">Event 4</li>
+        <li className="nav_dropdown-link">Event 1</li>
+        <li className="nav_dropdown-link">Event 2</li>
+        <li className="nav_dropdown-link">Event 3</li>
+        <li className="nav_dropdown-link">Event 4</li>
       </ul>
     </>
   );

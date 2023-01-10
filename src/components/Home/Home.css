@@ -1,20 +1,20 @@
-.main {
+.Home_main {
   height: 100%;
   width: 100%;
 }
-.container {
+.Home_container {
   height: 100vh;
   color: #000000;
   position: relative;
 }
-.container img {
+.Home_container img {
   width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 0;
 }
 
-.flex {
+.Home_flex {
   display: flex;
   position: absolute;
   z-index: 1;
@@ -25,45 +25,45 @@
   left: 600px;
 }
 
-.a {
+.Home_a {
   opacity: 0;
   transform: translateY(300px);
 }
-.b {
+.Home_b {
   opacity: 0;
   transform: translateY(300px);
 }
-.h {
+.Home_h {
   opacity: 0;
   transform: translateY(300px);
 }
-.i {
+.Home_i {
   opacity: 0;
   transform: translateY(200px);
 }
-.c {
+.Home_c {
   opacity: 0;
   transform: translateY(150px);
 }
 
-.g {
+.Home_g {
   opacity: 0;
   transform: translateY(150px);
 }
 
-.d {
+.Home_d {
   opacity: 0;
   transform: translateY(100px);
 }
-.f {
+.Home_f {
   transform: translateY(100px);
 }
-.e {
+.Home_e {
   opacity: 0;
   transform: translateY(100px);
 }
 
-.content {
+.Home_content {
   width: 100%;
   background: black;
   height: 120vh;
@@ -72,7 +72,7 @@
   z-index: 5;
 }
 
-.box {
+.Home_box {
   position: absolute;
   top: 0;
   right: 0;
@@ -81,7 +81,7 @@
   z-index: 0;
 }
 
-.intro {
+.Home_intro {
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -95,7 +95,7 @@
   text-align: center;
 }
 
-.slider {
+.Home_slider {
   background-color: #fefbf1;
   position: fixed;
   top: 0;
@@ -106,35 +106,35 @@
   transform: translateY(110%);
 }
 
-.intro-text h1 {
+.Home_intro-text h1 {
   color: #ffca7b;
   font-size: 70px;
 }
 
-.hide {
+.Home_hide {
   background-color: #000000;
   overflow: hidden;
   padding: 2px;
 }
 
-.hide span {
+.Home_hide span {
   transform: translateY(100%);
   display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {
-  .flex {
+  .Home_flex {
     top: 70%;
     font-weight: 500;
     font-size: 25px;
     left: 25%;
   }
 
-  .bg1 {
+  .Home_bg1 {
     object-fit: cover;
   }
 
-  .leftt {
+  .Home_leftt {
     object-fit: cover;
   }
 }

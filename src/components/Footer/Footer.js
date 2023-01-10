@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="wave" id="wave3"></div>
         <div className="wave" id="wave4"></div>
       </div>
-      <h1 style={{fontStyle:"italic"}} >Contact Us</h1>
+      <h1 className="text-4xl italic" >Contact Us</h1>
       <ContactUs />
       <ul className="Footer_social_icon">
         <li>
