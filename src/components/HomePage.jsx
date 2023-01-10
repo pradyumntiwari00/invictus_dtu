@@ -1,10 +1,10 @@
-import Home from "./Home";
-import About from "./About";
+import Home from "./Home/Home";
+import About from "./About/About";
 import Highlights from "./highlights";
 // import Sponser_tab from "./Sponser_tab";
-import OurSponsers from "./OurSponsers.js";
-import WhySponser from "./WhySponser.js";
-import Accordion from "./Accordion.js";
+import OurSponsers from "./OurSponsers/OurSponsers";
+import WhySponser from "./WhySponser/WhySponser";
+import FAQ from "./FAQ/";
 
 
 const HomePage = () => {
@@ -14,9 +14,9 @@ const HomePage = () => {
       <About />
       {/* <Sponser_tab /> */}
       {/* <Highlights /> */}
-      {/* <OurSponsers />
-      <WhySponser /> */}
-      {/* <Accordion /> */}
+      <OurSponsers />
+      <WhySponser />
+      <FAQ />
     </div>
   );
 };

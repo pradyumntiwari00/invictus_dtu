@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Accordion.css";
+import "./index.css";
 
-function Accordion_component(props) {
+function Component(props) {
   const [active, setActive] = useState(false);
   const content = useRef(null);
   const [height, setHeight] = useState("0px");
@@ -38,4 +38,4 @@ function Accordion_component(props) {
   );
 }
 
-export default Accordion_component;
+export default Component;

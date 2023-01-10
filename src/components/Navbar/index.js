@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
-import "./Navbar.css";
+import "./index.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="nav_container">
       <div className={"menuItems " + (click ? "show" : "")}>
         <div className="menuBtn" onClick={() => setClick(!click)}>
-          <img src={require("../images/invictuslogo.png")} alt="" />
+          <img src={require("../../images/invictuslogo.png")} alt="" />
         </div>
         <div className="menuItem" onClick={() => setClick(false)}>
           <Link to="/">Home</Link>

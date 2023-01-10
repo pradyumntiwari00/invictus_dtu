@@ -1,8 +1,10 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/jsx-pascal-case */
 import React, { useEffect, useRef, useState } from "react";
-import Accordion_component from "./Accordion_component";
+import Component from "./Component";
+import "./index.css";
 
-const Accordion = () => {
+const index = () => {
   const [active, setActive] = useState(false);
   const content = useRef(null);
   const [height, setHeight] = useState("0px");
@@ -28,15 +30,15 @@ const Accordion = () => {
           style={{ maxHeight: `${height}` }}
           className="accordion__content"
         >
-          <Accordion_component
+          <Component
             title="First Accordion"
             content="First Accordion content"
           />
-          <Accordion_component
+          <Component
             title="Second Accordion"
             content="Second Accordion content"
           />
-          <Accordion_component
+          <Component
             title="Third Accordion"
             content=" <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </br>
@@ -50,4 +52,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default index;
