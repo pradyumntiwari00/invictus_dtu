@@ -10,7 +10,7 @@ import FAQ from "../FAQ";
 const HomePage = () => {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       <About />
       {/* <Sponser_tab /> */}
       <OurSponsers />
