@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { gsap } from "gsap";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import ConfigDark from "../../config/particlesjs-config.json";
-import Navbar from "../Navbar/index";
+
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -108,16 +105,14 @@ const Home = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const particlesInit = async (main) => {
-    await loadFull(main);
-  };
-
   return (
     <div className="Home_main">
       <div className="Home_containerr">
-        {/* <Navbar /> */}
-        <img src={require("../../images/final 1.png")} className="Home_bg1" alt="" />
+        <img
+          src={require("../../images/final 1.png")}
+          className="Home_bg1"
+          alt=""
+        />
 
         <img
           src={require("../../images/layer.png")}
@@ -186,15 +181,6 @@ const Home = () => {
         className="Home_content"
         style={{ transform: `translateY(-${offsetY * 1.2}px)` }}
       >
-        <div className="Home_box">
-          <Particles
-            id="tsparticles"
-            style={{ position: "absolute", top: 0 }}
-            params={ConfigDark}
-            init={particlesInit}
-          />
-        </div>
-
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
           quibusdam natus debitis, provident magnam eligendi id aperiam

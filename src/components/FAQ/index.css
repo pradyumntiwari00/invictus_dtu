@@ -4,6 +4,7 @@
 .accordion__section {
   display: flex;
   width: 100%;
+  z-index: 4;
   flex-direction: column;
 }
 

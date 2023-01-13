@@ -1,49 +1,54 @@
-.sponsor{
-    font-family: 'Noto Serif', serif;
-   text-align: center;
-    padding-top: 16px;
-    font-size: 100px;
+.sponsor {
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 100px;
 }
-.OurSponsers, .WhySponser {
-    background-image: url('../../images/cool-background4.png');
+.OurSponsers,
+.WhySponser {
+  /* background-image: url('../../images/cool-background4.png');
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+  color: white;
 }
-.images{
-    margin: 6%;
-    flex: 33.33%;
-    padding: 5px;
-    width: 80%;
-    height: auto;
+
+.images {
+  margin: 6%;
+  flex: 33.33%;
+  padding: 5px;
+  width: 80%;
+  height: auto;
 }
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
-.col{
-    flex:25%;
-    margin-top: 25px;
+.col {
+  flex: 25%;
+  margin-top: 25px;
 }
-.img{
-    width: 80%;
-    margin: 0 auto;
+.img {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
 }
-@media screen and (max-width:500px){
-    .row{
-        flex-direction: column;
-    }
+@media screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 600px) {
-    .divs {
-      flex-direction: column;
-    }
-    .sponsor{
-        font-size: 70px;
-    }
+  .divs {
+    flex-direction: column;
   }
-  .text{
-    text-align: center;
-    font-size:300%;
-    font-weight: 400;
-    font-family: 'Playfair Display', serif;
-    margin: 40px 20px;
+  .sponsor {
+    font-size: 70px;
   }
+}
+.text {
+  text-align: center;
+  font-size: 300%;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  margin: 40px 20px;
+}
