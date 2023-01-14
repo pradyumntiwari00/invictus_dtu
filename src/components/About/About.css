@@ -122,3 +122,23 @@
   line-height: 1.7;
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+  .About_contentt h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .About_contentt {
+    width: 65%;
+  }
+  .About_contentt p {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .About_icons img {
+    width: 30px;
+    height: 30px;
+  }
+}
