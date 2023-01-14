@@ -75,16 +75,22 @@ const About = () => {
             largest college technical festivals in the country. The techfest is
             organised jointly by all the technical societies of DTU each year.
             INVICTUS exhibits the perfect amalgamation of science, technology,
-            and fun. Invictus is a 3-day remarkable fest that emphasises the
-            technical aspects along with an inordinate amount of fun, a
-            concoction of fierce rivalry yet in a friendly spirit, hosting a
-            plethora of events ranging from as conventional as quizzes and fun
-            games to as advanced as aerial robotics and Machine Learning, in the
-            umbrella techfest of DTU. We at Invictus have always believed in
-            expanding our extents and try to make the fest a bigger success each
-            year. We aim to collaborate with a large number of institutions and
-            organizations, in order to exhibit young talents, various technical
-            events, and games and take the fest to new heights.
+            and fun.
+            <br />
+            <br />
+            Invictus is a 3-day remarkable fest that emphasises the technical
+            aspects along with an inordinate amount of fun, a concoction of
+            fierce rivalry yet in a friendly spirit, hosting a plethora of
+            events ranging from as conventional as quizzes and fun games to as
+            advanced as aerial robotics and Machine Learning, in the umbrella
+            techfest of DTU.
+            <br />
+            <br />
+            We at Invictus have always believed in expanding our extents and try
+            to make the fest a bigger success each year. We aim to collaborate
+            with a large number of institutions and organizations, in order to
+            exhibit young talents, various technical events, and games and take
+            the fest to new heights.
           </p>
         </div>
         <div className="About_col1">
