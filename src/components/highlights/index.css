@@ -1,0 +1,45 @@
+.highlights{
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: -3rem;
+}
+
+.img-cont{
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    margin: 0 100px;
+}
+
+.main-slider{
+    margin-top: 4rem;
+}
+
+.carousel .control-dots .dot{
+    background-color: white;
+    z-index: 100;
+}
+
+
+.carousel .control-dots .dot.selected{
+    background-color: #000;
+}
+
+.carousel .control-dots .dot:hover{
+    background-color: #000;
+}
+
+.carousel{
+    margin-top: 4rem;
+    text-align: center;
+}
