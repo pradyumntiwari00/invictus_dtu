@@ -8,8 +8,8 @@ import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
 import HomePage from "./components/Home/HomePage";
 import { BrowserRouter } from "react-router-dom";
-const events = ["Blogs", "Quiz", "Hackathon","Summits","Seminars"];
-
+import ParticlesWrapper from "./utils/ParticlesWrapper";
+const events = ["Blogs", "Quiz", "Hackathon", "Summits", "Seminars"];
 function App() {
   return (
     <div>
@@ -17,23 +17,35 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <HomePage />
+            <ParticlesWrapper>
+              <HomePage />
+            </ParticlesWrapper>
           </Route>
           <Route exact path="/teams">
-            <Teams />
+            <ParticlesWrapper>
+              <Teams />
+            </ParticlesWrapper>
           </Route>
           <Route exact path="/quizzes">
-            <Events event={events[1]} />
+            <ParticlesWrapper>
+              <Events event={events[1]} />
+            </ParticlesWrapper>
           </Route>
           <Route exact path="/hackaton">
-            <Events event={events[2]} />
+            <ParticlesWrapper>
+              <Events event={events[2]} />
+            </ParticlesWrapper>
           </Route>
           <Route exact path="/summit">
-            <Events event={events[3]} />
+            <ParticlesWrapper>
+              <Events event={events[3]} />
+            </ParticlesWrapper>
           </Route>
-          <Route exact  path="/Seminars">
-          <Events event={events[4]} />
-        </Route>
+          <Route exact path="/Seminars">
+            <ParticlesWrapper>
+              <Events event={events[4]} />
+            </ParticlesWrapper>
+          </Route>
         </Switch>
       </BrowserRouter>
       <Footer />

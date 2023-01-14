@@ -8,12 +8,15 @@
   background: linear-gradient(to bottom,#000000,#06094c,#0b0f85,#04052b,#000000);
   margin-top: 3rem;
   margin-bottom: 10rem;
+  
 }
 .Teams_Section > h2 {
   font-size: 6em;
   font-weight: 400;
   font-style: italic;
   color: whitesmoke;
+  position: relative;
+  z-index: 5;
 }
 .Teams_Cards_Container {
   display: grid;
@@ -66,6 +69,7 @@
   align-items: center;
   justify-items: center;
   text-align: center;
+  z-index: 5;
 }
 
 .Team_Name {
