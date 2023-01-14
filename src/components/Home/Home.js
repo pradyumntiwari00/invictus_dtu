@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { gsap } from "gsap";
-
+import videoBg from "../../images/Particles.mp4";
 
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -121,72 +121,58 @@ const Home = () => {
           style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
         />
         <div className="Home_flexi">
-          <h1
-            className="a"
-            // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
-          >
-            1
-          </h1>
-          <h1
-            className="b"
-            // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
-          >
-            9
-          </h1>
-          <h1
-            className="c"
-            // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
-          >
-            J
-          </h1>
-          <h1
-            className="d"
-            // style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
-          >
-            A
-          </h1>
-          <h1
-            className="e"
-            // style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
-          >
-            N
-          </h1>
-          <h1
-            className="f"
-            // style={{ transform: `translateY(-${offsetY * 0.7}px)` }}
-          >
-            U
-          </h1>
-          <h1
-            className="g"
-            // style={{ transform: `translateY(${offsetY * 0.6}px)` }}
-          >
-            A
-          </h1>
-          <h1
-            className="h"
-            // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
-          >
-            R
-          </h1>
-          <h1
-            className="i"
-            // style={{ transform: `translateY(-${offsetY * 0.6}px)` }}
-          >
-            Y
-          </h1>
+          <div className="boxy a">
+            <img src={require("../../images/1 (2).png")} alt="" />
+          </div>
+          <div className="boxy b">
+            <img src={require("../../images/9 (1).png")} alt="" />
+          </div>
+          <div className="boxy c">
+            <img src={require("../../images/J (1).png")} alt="" />
+          </div>
+          <div className="boxy d">
+            <img src={require("../../images/a (1).png")} alt="" />
+          </div>
+          <div className="boxy e">
+            <img src={require("../../images/n.png")} alt="" />
+          </div>
+          <div className="boxy f">
+            <img src={require("../../images/u.png")} alt="" />
+          </div>
+          <div className="boxy g">
+            <img src={require("../../images/a (2).png")} alt="" />
+          </div>
+          <div className="boxy h">
+            <img src={require("../../images/r.png")} alt="" />
+          </div>
+          <div className="boxy i">
+            <img src={require("../../images/y.png")} alt="" />
+          </div>
         </div>
       </div>
       <div
         className="Home_content"
         style={{ transform: `translateY(-${offsetY * 1.2}px)` }}
       >
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-          quibusdam natus debitis, provident magnam eligendi id aperiam
-          architecto culpa minus cumque sed, rerum repellendus mollitia ex
-          recusandae impedit ipsam sapiente.
-        </p>
+        <div className="backdrop"></div>
+        <video src={videoBg} autoPlay loop muted></video>
+        <div className="content">
+          <h1>About DTU</h1>
+          <p>
+            Delhi Technological University (DTU), also known as Delhi College of
+            Engineering, is a premier technical university located in New Delhi,
+            India. The university boasts of a strong industry-academia
+            partnership, state-of-the-art infrastructure and facilities, and a
+            focus on innovation and entrepreneurship. Invictus 2023, the
+            techfest of DTU, is an annual event that provides students with an
+            opportunity to showcase their technical, creative, and
+            entrepreneurial skills through a wide range of events such as
+            technical competitions, workshops, guest lectures and exhibitions.
+            It also serves as a platform for students to interact with industry
+            experts, learn about the latest advancements in technology, and
+            build connections with peers from other universities and colleges.
+          </p>
+        </div>
       </div>
       <div className="intro">
         <div className="intro-text">
