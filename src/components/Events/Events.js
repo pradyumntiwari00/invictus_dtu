@@ -12,8 +12,10 @@ const Events = ({ event }) => {
               <div className="Event_Image">
                 <img src={eventInfo.img} alt="ImageName" />
               </div>
-              <div className="Event_Name">{eventInfo.name}</div>
-              <div className="Event_Position">{eventInfo.about}</div>
+              <div className="Event_content">
+                <div className="Event_Name">{eventInfo.name}</div>
+                <div className="Event_Position">{eventInfo.about}</div>
+              </div>
             </div>
           ))}
         </div>

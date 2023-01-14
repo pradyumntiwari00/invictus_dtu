@@ -29,7 +29,6 @@
   .Events_Cards_Container {
     grid-template-columns: repeat(3, 1fr);
   }
-
 }
 @media screen and (max-width: 900px) {
   .Events_Cards_Container {
@@ -40,36 +39,34 @@
   .Events_Cards_Container {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 .Event_Image > img {
-  width: 30vh;
-  height: 28vh;
-  border-radius: 20%;
+  width: 38vh;
+  height: 38vh;
+  border-radius: 0.8rem;
   background-position: center;
   background-repeat: no-repeat;
-    box-shadow: 0 6px 12px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 12px 6px rgba(0, 0, 0, 0.4);
 }
 .Event_Image {
   justify-content: center;
   align-items: center;
   justify-items: center;
 }
-
 .Event_Card {
   height: fit-content;
-  width: 42vh;
+  width: 38vh;
   border-radius: 0.8rem;
   font-size: 16px;
-  padding: 0.8rem;
   margin: 0.8rem;
   transform: translateY(0);
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out,
+    border-bottom 0.5s ease-in-out;
 
   background-color: rgba(58, 58, 58, 0.2);
   box-shadow: 0 6px 12px 6px rgba(59, 59, 59, 0.2);
-  border-bottom: 2px solid rgba(0, 0, 255,0.4);
+  border-bottom: 2px solid rgba(0, 0, 255, 0.4);
 
   display: flex;
   flex-direction: column;
@@ -79,29 +76,41 @@
   text-align: center;
 }
 
-.Event_Card:hover{
- transform: translateY(-20px); 
- background-color: rgba(75, 75, 75, 0.2);
- border-bottom: 2px solid rgba(0, 0, 255,1);
-} 
+.Event_Card:hover {
+  transform: translateY(-20px);
+  background-color: rgba(9, 9, 9, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 255, 1);
+}
 
 .Event_Name {
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
-  color: rgba(100, 73, 255,0.4);
+  color: rgba(100, 73, 255, 0.4);
   font-size: 2rem;
 }
-.Event_Card:hover .Event_Name{
-    color: rgba(100, 73, 255,1);
+.Event_Card:hover .Event_Name {
+  color: rgba(100, 73, 255, 1);
 }
 .Event_Position {
   padding-top: 0.3rem;
   padding-bottom: 0.5rem;
 
   word-wrap: break-word;
-
-  color: rgba(252, 83, 111,0.4);
+  display: none;
+  color: rgba(252, 83, 111, 0.4);
 }
-.Event_Card:hover .Event_Position{
-    color: rgba(252, 83, 111,1);
+.Event_Card:hover .Event_Position {
+  color: rgba(252, 83, 111, 1);
+  display: block;
+  height: 20vh;
+}
+
+.Event_content {
+  position: relative;
+  background-color: rgb(9, 9, 9);
+  transition: transform 0.5s ease-in-out, height 0.5s ease-in-out;
+  width: 100%;
+}
+.Event_Card:hover .Event_content {
+  transform: translateY(-40%);
 }
