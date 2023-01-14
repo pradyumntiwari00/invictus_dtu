@@ -8,7 +8,7 @@ const index = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-4">
-      <h1 className="text-white mb-4 text-3xl" >FAQ</h1>
+      <h1 className="text-red-400 mb-4 text-5xl" >FAQ</h1>
       <div className="accordion__section">
         <Component title="First Accordion" content="First Accordion content" />
         <Component
