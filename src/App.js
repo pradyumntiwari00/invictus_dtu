@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
 import HomePage from "./components/Home/HomePage";
 import { BrowserRouter } from "react-router-dom";
-const events = ["Blogs", "Quiz", "Hackathon"];
+const events = ["Blogs", "Quiz", "Hackathon","Summits","Seminars"];
 
 function App() {
   return (
@@ -31,9 +31,9 @@ function App() {
           <Route exact path="/summit">
             <Events event={events[3]} />
           </Route>
-          {/* <Route exact  path="/Seminars">
+          <Route exact  path="/Seminars">
           <Events event={events[4]} />
-        </Route> */}
+        </Route>
         </Switch>
       </BrowserRouter>
       <Footer />
