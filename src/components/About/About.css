@@ -110,6 +110,7 @@
 .About_contentt {
   position: relative;
   z-index: 3;
+  margin-top: 100px;
 }
 
 .About_contentt h1 {

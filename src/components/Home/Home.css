@@ -7,7 +7,13 @@
   color: #000000;
   position: relative;
 }
-.Home_containerr img {
+.Home_bg1 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+.Home_leftt {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -17,49 +23,63 @@
 .Home_flexi {
   display: flex;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   color: #fb9fb4;
-  top: 550px;
+  top: 570px;
   font-weight: 600;
   font-size: 100px;
-  left: 600px;
+  left: 480px;
+  object-fit: contain;
+}
+
+.boxy {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.boxy img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .a {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(300px);
 }
 .b {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(300px);
 }
 .h {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(300px);
 }
 .i {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(200px);
 }
 .c {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(150px);
 }
 
 .g {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(150px);
 }
 
 .d {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(100px);
 }
 .f {
+  opacity: 1;
   transform: translateY(100px);
 }
 .e {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(100px);
 }
 
