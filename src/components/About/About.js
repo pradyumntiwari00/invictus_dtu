@@ -63,16 +63,28 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="About_contentt">
-          <h1>About Invictus</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-            temporibus enim ad quaerat sapiente! Magnam suscipit ea eos
-            reiciendis numquam corrupti cupiditate aspernatur architecto
-            molestias corporis maxime, voluptatem, aliquam libero maiores itaque
-            adipisci quae neque consequatur similique dolor. Ipsam aliquam magni
-            repellat dicta fugit animi mollitia, nihil provident sunt quia rem
-            qui at quidem, doloremque similique enim vel totam beatae.
+        <div className="About_contentt font-serif">
+          <h1 className="mt-2 mb-2 text-4xl">ABOUT INVICTUS</h1>
+          <p className="mt-2 mb-2 text-xl">
+            “We are kept from our goal, not by obstacles, but by a clear path to
+            a lesser goal.”
+            <br />
+            <br />
+            Invictus, the annual technical fest of Delhi Technological
+            University (Formerly Delhi College of Engineering), is one of the
+            largest college technical festivals in the country. The techfest is
+            organised jointly by all the technical societies of DTU each year.
+            INVICTUS exhibits the perfect amalgamation of science, technology,
+            and fun. Invictus is a 3-day remarkable fest that emphasises the
+            technical aspects along with an inordinate amount of fun, a
+            concoction of fierce rivalry yet in a friendly spirit, hosting a
+            plethora of events ranging from as conventional as quizzes and fun
+            games to as advanced as aerial robotics and Machine Learning, in the
+            umbrella techfest of DTU. We at Invictus have always believed in
+            expanding our extents and try to make the fest a bigger success each
+            year. We aim to collaborate with a large number of institutions and
+            organizations, in order to exhibit young talents, various technical
+            events, and games and take the fest to new heights.
           </p>
         </div>
         <div className="About_col1">
