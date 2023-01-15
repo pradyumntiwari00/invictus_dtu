@@ -19,7 +19,7 @@ const ContactUs = () => {
   };
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <form className="contact-form text-white" onSubmit={handleSubmit}>
       <div style={{ display: "flex", flexDirection: "row"}}>
         <div style={{marginRight:"2rem"}}>
           <label htmlFor="name" className="form-label">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Dropdown.css";
 
 function Dropdown({ onMouseEnter, onMouseLeave }) {
@@ -11,13 +12,26 @@ function Dropdown({ onMouseEnter, onMouseLeave }) {
       <ul
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
-        className={click ? "nav_dropdown-menuu nav_clicked" : "nav_dropdown-menuu"}
+        className={
+          click ? "nav_dropdown-menuu nav_clicked" : "nav_dropdown-menuu"
+        }
       >
         <span className="arrow"></span>
-        <li className="nav_dropdown-link">Event 1</li>
-        <li className="nav_dropdown-link">Event 2</li>
-        <li className="nav_dropdown-link">Event 3</li>
-        <li className="nav_dropdown-link">Event 4</li>
+        <li className="nav_dropdown-link">
+          <Link to="/CSA">Case Study Competitions</Link>
+        </li>
+        <li className="nav_dropdown-link">
+          <Link to="/symposium">Symposium</Link>
+        </li>
+        <li className="nav_dropdown-link">
+          <Link to="/PE">Programming Events</Link>
+        </li>
+        <li className="nav_dropdown-link">
+          <Link to="/miscellaneous">Miscellaneous</Link>
+        </li>
+        <li className="nav_dropdown-link">
+          <Link to="/exhibitions">Exhibitions</Link>
+        </li>
       </ul>
     </>
   );

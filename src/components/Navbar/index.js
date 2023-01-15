@@ -26,29 +26,31 @@ const Navbar = () => {
         <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/teams">Teams</Link>
         </div>
-
-        <div
-          className="nav_menuItem"
-          onMouseEnter={onMouseEnterr}
-          onMouseLeave={onMouseLeavee}
-          onClick={() => setDropdown(true)}
-        >
+        <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/quizzes">Quizzes</Link>
-          {dropdown && (
-            <Dropdown
-              onMouseEnter={onMouseEnterr}
-              onMouseLeave={onMouseLeavee}
-            />
-          )}
         </div>
         <div className="nav_menuItem" onClick={() => setClick(false)}>
-          <Link to="/hackaton">Hackathon</Link>
+          <Link to="/hackaton">Hackathon & Ideathon</Link>
         </div>
         <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/Summit">Summit</Link>
         </div>
         <div className="nav_menuItem" onClick={() => setClick(false)}>
           <Link to="/Seminars">Seminars</Link>
+        </div>
+        <div
+          className="nav_menuItem"
+          onMouseEnter={onMouseEnterr}
+          onMouseLeave={onMouseLeavee}
+          onClick={() => setDropdown(true)}
+        >
+          <p>Others</p>
+          {dropdown && (
+            <Dropdown
+              onMouseEnter={onMouseEnterr}
+              onMouseLeave={onMouseLeavee}
+            />
+          )}
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Events from "./components/Events/Events";
 import HomePage from "./components/Home/HomePage";
 import { BrowserRouter } from "react-router-dom";
-import ParticlesWrapper from "./utils/ParticlesWrapper";
+import ParticlesWrapper from "./utils/ParticleWrapper";
 const events = ["Blogs", "Quiz", "Hackathon", "Summits", "Seminars"];
 function App() {
   return (
@@ -36,12 +36,12 @@ function App() {
               <Events event={events[2]} />
             </ParticlesWrapper>
           </Route>
-          <Route exact path="/summit">
+          <Route exact path="/summits">
             <ParticlesWrapper>
               <Events event={events[3]} />
             </ParticlesWrapper>
           </Route>
-          <Route exact path="/Seminars">
+          <Route exact path="/seminars">
             <ParticlesWrapper>
               <Events event={events[4]} />
             </ParticlesWrapper>

@@ -36,7 +36,8 @@
 }
 
 .form-button {
-  background-color:midnightblue;
+  /* background-color:rgb(224, 17, 2); */
+  background-color: midnightblue;
   color: white;
   font-size: 16px;
   padding: 10px 20px;
@@ -46,5 +47,6 @@
 }
 
 .form-button:hover {
-  background-color:navy;
+  /* background-color:rgb(224, 17, 2); */
+  background-color: navy;
 }

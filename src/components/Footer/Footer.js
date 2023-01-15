@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="wave" id="wave3"></div>
         <div className="wave" id="wave4"></div>
       </div>
-      <h1 className="text-4xl italic" >Contact Us</h1>
+      <h1 className="text-4xl italic text-white">Contact Us</h1>
       <ContactUs />
       <ul className="Footer_social_icon">
         <li>
@@ -23,11 +23,40 @@ const Footer = () => {
           <a href="#" className="fa fa-instagram"></a>
         </li>
       </ul>
-      <ul className="Footer_menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Team</a></li>
+      <ul className="Footer_menu mb-8">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/teams">Teams</a>
+        </li>
+        <li>
+          <a href="/quizzes">Quizzes</a>
+        </li>
+        <li>
+          <a href="/hackaton">Hackathon & Ideathon</a>
+        </li>
+        <li>
+          <a href="/summits">Summits</a>
+        </li>
+        <li>
+          <a href="/seminars">Seminars</a>
+        </li>
+        <li>
+          <a href="/CSA">Case Study Competition</a>
+        </li>
+        <li>
+          <a href="/symposium">Symposium</a>
+        </li>
+        <li>
+          <a href="/PE">Programming Events</a>
+        </li>
+        <li>
+          <a href="/miscellaneous">Miscellaneous</a>
+        </li>
+        <li>
+          <a href="/exhibitions">Exhibitions</a>
+        </li>
       </ul>
       <p>Copyright reserves</p>
     </footer>
