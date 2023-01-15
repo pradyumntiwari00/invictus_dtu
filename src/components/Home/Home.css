@@ -179,12 +179,22 @@
 }
 
 @media only screen and (max-width: 1100px) {
+  .boxy {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+  }
   .Home_flexi h1 {
     font-size: 70px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
+  .boxy {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+  }
   .Home_flexi {
     top: 75%;
     font-weight: 500;
@@ -198,8 +208,13 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .boxy {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
   .Home_flexi {
-    top: 75%;
+    top: 78%;
     font-weight: 500;
     font-size: 50px;
     left: 50%;
