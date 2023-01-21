@@ -1,0 +1,63 @@
+.card {
+    margin: 10px 10px; 
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
+  
+  /* Flip Cards CSS */
+  .card-container {
+    display: grid;
+    /* perspective: 700px; */
+  }
+  
+  .card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .front {
+    grid-area: frontAndBack;
+  }
+  
+  .back {
+    grid-area: frontAndBack;    
+    transform: rotateY(-180deg);
+  }
+  
+  input[type='checkbox']:checked + .card-container .card-flip {
+    transform: rotateY(180deg);
+  }
+  
+  .back-img {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .back-col{
+    background-color: #000D2D;
+  }
+
+  .gradient-border {
+    background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(45deg, #8E1791, #131E5E) border-box;
+    border: 5px solid transparent;
+    border-radius: 25px;
+    /* padding: 10px 10px; */
+  }
