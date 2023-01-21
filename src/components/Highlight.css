@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+html, body{
+    height: 100%;
+}
+.left {
+    width: 30%;
+    height: 300px;
+    position: relative;
+    margin-right: 8%;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    }
+    .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(9,29,69,255);
+    border: 5px solid rgba(110,19,142,255);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 105px;
+    font-family: Avenir;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-size:1.3rem;
+    transition: 0.2s;
+    }
+    .overlay {
+    z-index: 9;
+    margin: 30px;
+    background: rgba(0,13,40,255);
+    border: 5px solid rgba(10,40,104,255);
+    margin-top: 135px;
+    }
+    .upper:hover{
+    width:104%;
+    height: 104%;
+    }
+    .container{
+    display: flex;
+    background-image: url(https://raw.githubusercontent.com/Anubhav52/invictus_new/main/src/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;  
+    padding: 50px;
+    /* position: absolute; */
+    }
+    .right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    }
+    .rightcomponent{
+    width: 50%;
+    box-sizing: border-box;
+    }
+    .heading{
+    font-family: 'Saira Stencil One', cursive;
+    font-size:4.5vw;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: white;
+    margin-bottom: 3rem;
+    }
+
+    ._right {
+        width:32%;
+        height: 110px;
+        position: relative;
+        margin: 5px;
+      }
+      ._box {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background: rgba(110,19,142,255);
+        border-radius: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      ._overlay {
+        z-index: 11;
+        margin: 5px;
+        background: rgba(9,29,69,255);
+        font-size: 10px;
+        color: white;
+      }
+    @media only screen and (max-width: 600px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+
+    

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import { gsap } from "gsap";
+import Faq from "./FAQ/Faq";
+import Social from "./social/Social";
 
 const Home = () => {
   useEffect(() => {
@@ -45,6 +47,8 @@ const Home = () => {
           />
         </div>
       </div>
+      <Faq/>
+      <Social/>
       <div className="slider"></div>
     </>
   );
