@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/jsx-pascal-case */
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import "./faq.css";
 const Faq = () => {
   const [modal,setmodal]=useState(false);
@@ -18,23 +18,23 @@ const Faq = () => {
          S <br />
          </button>
     </div>
-    <div className="modal">
-      <div className="overlay">
-        <h3>Question 1</h3>
-      Lorem ipsum, dolor sit amet.
+    { modal &&(
+    <div className='model'>
+      <div className='overlay'>
+        <h5>Question 1</h5>
+         Lorem ipsum, dolor sit amet.
       </div>
-      <div className="overlay">
-        <h3>Question 2</h3>
-      Lorem ipsum, dolor sit amet consectetur .
+      <div className='overlay'>
+        <h5>Question 2</h5>
+         Lorem ipsum, dolor sit amet consectetur .
       </div>
-      <div className="overlay">
-        <h3>Question 3</h3>
-      Lorem ipsum, dolor sit amet consectetur .
+      <div className='overlay'>
+        <h5>Question 3</h5>
+         Lorem ipsum, dolor sit amet consectetur .
       </div>
     </div>
-    {/* {modal&& (
-    
-    )} */}
+    )
+    }
   </>
   );
 };
