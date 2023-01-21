@@ -1,0 +1,40 @@
+.sponsor {
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.sponsor-title {
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 60px;
+  font-family: "Aquire";
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  background: #e00;
+  margin: 16px;
+}
+
+.sponsor-col {
+  background: linear-gradient(#000d2d 0 0) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #8e1791, #131e5e)
+      border-box;
+  color: #313149;
+  padding: 10px;
+  border: 11px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 16px 0;
+}
