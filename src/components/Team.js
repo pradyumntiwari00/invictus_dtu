@@ -18,7 +18,7 @@ const Team = () => {
     return (
         <>
             <div className='back-img'>
-                <h1 className='my-3'>Our Team</h1>
+                <h1 className='my-3 font'>Our Team</h1>
                 <div className="container">
                     <div className="row">
 

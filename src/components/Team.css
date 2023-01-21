@@ -61,3 +61,11 @@
     border-radius: 25px;
     /* padding: 10px 10px; */
   }
+
+  .font{
+    font-family: 'Aquire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 52px;
+  }
