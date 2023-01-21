@@ -32,7 +32,7 @@ const Team = () => {
                                             {/* <!-- Card Front --> */}
                                             <div className="card-fluid front back-col gradient-border my-1">
                                                 <div className="card-block py-1 px-1">
-                                                    <img src={element.img} className="card-img-top img-fluid pt-2"/>
+                                                    <img src={element.img} alt="Person" className="card-img-top img-fluid pt-2"/>
                                                     <h4 className="card-title text-center pb-1">{element.name}</h4>
                                                 </div>
                                             </div>
