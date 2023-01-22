@@ -42,7 +42,7 @@ html, body{
     width:104%;
     height: 104%;
     }
-    .container-hig{
+    ._container{
     display: flex;
     background-image: url(https://raw.githubusercontent.com/Anubhav52/invictus_new/main/src/images/bg.png);
     background-position: center;

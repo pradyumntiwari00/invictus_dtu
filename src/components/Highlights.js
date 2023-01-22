@@ -4,7 +4,7 @@ import Rightimage from "./Rightimage.js";
 
 const Highlights = () => {
   return (
-    <div className="container container-hig">
+    <div className="_container container-hig">
       <div className="left">
         <div className="heading">HIGHLIGHTS</div>
         <div className="leftbody">
