@@ -6,7 +6,7 @@ const Highlights = () => {
   return (
     <div className="_container container-hig">
       <div className="left">
-        <div className="heading">HIGHLIGHTS</div>
+        <div className="highlights_heading">HIGHLIGHTS</div>
         <div className="leftbody">
           <div className="box upper">ADD PIC</div>
           <div className="box overlay"></div>
