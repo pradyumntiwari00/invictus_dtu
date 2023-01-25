@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Events.css";
 import EventData from "./Data";
 import image from "../../images/logo.png";
-
 const EventModal = ({info}) => {
   console.log(info);
   return (
@@ -29,6 +28,7 @@ const Events = ({ events }) => {
   const handleCloseButtonClick = () => {
     setModalVisible(false);
   };
+  console.log(EventData[events]);
   return (
     <div className="events">
       <div className="event_fullname">{events}</div>
@@ -40,7 +40,7 @@ const Events = ({ events }) => {
               onClick={handleEventCardClick}
             >
               <div className="card_content">
-                <img src={image} className="event_img" alt="logo" />
+                <img src={eventInfo.img} className="event_img" alt="logo" />
                 <div className="event-info">
                   <p className="title">{eventInfo.name}</p>
 

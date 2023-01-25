@@ -21,7 +21,7 @@ function App() {
         <Route path="hackathonIdethon" element={<Events events={events[0]}/>} />
         <Route path="highlights" element={<Highlights />} />
       </Routes>
-    </Router>
+    </Router>  
   );
 }
 
