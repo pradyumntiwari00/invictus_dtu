@@ -33,7 +33,7 @@ const Home = () => {
       <div className="home">
         <div className="home_content">
           <img src={require("../images/logo.png")} className="logo" alt="" />
-          <h1 className="date">19TH JANUARY</h1>
+          <h1 className="date">13<sup>th</sup> February</h1>
         </div>
 
         <div className="backdrop"></div>

@@ -1,41 +1,17 @@
 import './Navbar.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 const Navbar = () => {
     return (
-        <>
-            {/* <nav className="navbar gradient-border-nav navbar-expand-lg navbar-light bg-light">
-            <Link className="navbar-brand" to="/"></Link>
-                <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/">Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/team">Teams </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/quiz">Quizzes</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/hackathonIdethon">Hackathon and Ideathon</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/summits">Summit</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link exact activeclassname="menu_active" className="nav-link nav-font active text-capitalize" aria-current="page" to="/sponsors">Others</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav> */}
-            <nav className="navbar navbar-expand-lg gradient-border-nav navbar-dark">
+    <>
+        <div className="navbar">
+                <div className="element"><Link to="/">HOME</Link></div>
+                <div className="element"><Link to="/hackathonIdethon">EVENTS</Link></div>
+                <div className="element"><Link to="/summits">SUMMITS</Link></div>
+                <div className="element"><Link to="/sponsors">SPONSORS</Link></div>
+                <div className="element"><Link to="/team">OUR TEAM</Link></div>
+        </div>
+            {/*<nav className="navbar navbar-expand-lg gradient-border-nav navbar-dark">
                 <Link className="navbar-brand" to="/"></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -62,7 +38,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-            </nav>
+    </nav>*/}
         </>
     )
 }
