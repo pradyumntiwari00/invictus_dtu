@@ -1,41 +1,45 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable react/jsx-pascal-case */
-import React, { useState } from "react";
-import "./faq.css";
+import React from 'react'
+
+const FAQs = [
+  { idx: 1, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 2, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 3, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 4, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 5, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 6, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 7, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 8, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+  { idx: 9, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
+]
+
 const Faq = () => {
-  const [modal,setmodal]=useState(false);
-  const toggleModal=()=>{
-    setmodal(!modal);
-    console.log(modal);
-  }
   return (
     <>
-    <div className='faq'>
-      <button onClick={toggleModal} className='btn' type="button">
-         F <br />
-         A <br />
-         Q <br />
-         S <br />
-         </button>
-    </div>
-    { modal &&(
-    <div className='model'>
-      <div className='overlay'>
-        <h5>Question 1</h5>
-         Lorem ipsum, dolor sit amet.
+    <div className='back-img'>
+      <div className='text-center font my-3'>FAQ</div>
+      <div className="accordion container" id="accordionExample">
+        {
+          FAQs.map((element) => {
+            return (
+              <div className="accordion-item" key={element.idx}>
+                <h2 className="accordion-header" id={`heading${element.idx}`}>
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${element.idx}`} aria-expanded="false" aria-controls={`collapse${element.idx}`}>
+                    {element.ques}
+                  </button>
+                </h2>
+                <div id={`collapse${element.idx}`} className="accordion-collapse collapse" aria-labelledby={`heading${element.idx}`} data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                    {element.ans}
+                  </div>
+                </div>
+              </div>
+            )
+          })
+        }
       </div>
-      <div className='overlay'>
-        <h5>Question 2</h5>
-         Lorem ipsum, dolor sit amet consectetur .
       </div>
-      <div className='overlay'>
-        <h5>Question 3</h5>
-         Lorem ipsum, dolor sit amet consectetur .
-      </div>
-    </div>
-    )
-    }
-  </>
-  );
-};
-export default Faq;
+    </>
+  )
+}
+
+export default Faq

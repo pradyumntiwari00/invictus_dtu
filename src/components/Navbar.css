@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-  .navbar{
+  .navbar-head{
     display: flex;
     justify-content: space-around;
     background: linear-gradient(270.92deg, #da50b5 0%, #0a0a2e 100%);
     padding: 1px;
   }
 .element {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif; 
   font-style: normal;
   font-size: 21px;
   line-height: 21px;
@@ -25,8 +25,9 @@
   margin: 0.5em;
 }
 .element a{
-  color: white;
+  color: white !important;
   font-weight: 300;
+  text-decoration: none;
 
 }
 .element:hover {
@@ -38,5 +39,5 @@
 }
 .element:hover a {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
