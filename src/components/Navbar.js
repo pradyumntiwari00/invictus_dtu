@@ -9,6 +9,7 @@ const Navbar = () => {
                 <div className="element"><Link to="/hackathonIdethon">EVENTS</Link></div>
                 <div className="element"><Link to="/summits">SUMMITS</Link></div>
                 <div className="element"><Link to="/sponsors">SPONSORS</Link></div>
+                <div className="element"><Link to="/highlights">HIGHLIGHTS</Link></div>
                 <div className="element"><Link to="/team">OUR TEAM</Link></div>
         </div>
             {/*<nav className="navbar navbar-expand-lg gradient-border-nav navbar-dark">
