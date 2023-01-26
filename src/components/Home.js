@@ -3,6 +3,7 @@ import "./Home.css";
 import { gsap } from "gsap";
 import Faq from "./FAQ/Faq";
 import Social from "./social/Social";
+import Footer from "./Footer/Footer"
 
 const Home = () => {
   useEffect(() => {
@@ -49,6 +50,7 @@ const Home = () => {
       </div>
       <Faq/>
       <Social/>
+      <Footer/>
       <div className="slider"></div>
     </>
   );

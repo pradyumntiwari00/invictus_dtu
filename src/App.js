@@ -6,7 +6,7 @@ import Events from "./components/Events/Events";
 import Sponsors from "./components/Sponsors";
 import Navbar from "./components/Navbar";
 import Highlights from "./components/Highlights";
-
+import Summit from "./components/Summit/Summit.js";
 const events = ["Hackthon & Ideathon", "Summits"];
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="team" element={<Team />} />
         <Route path="sponsors" element={<Sponsors />} />
-        <Route path="summits" element={<Events events={events[1]}/>} />
+        <Route path="summits" element={<Summit/>} />
         <Route path="hackathonIdethon" element={<Events events={events[0]}/>} />
         <Route path="highlights" element={<Highlights />} />
       </Routes>

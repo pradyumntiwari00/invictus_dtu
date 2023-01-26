@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import "./Home.css";
 import "./Sponsors.css";
+import Footer from "./Footer/Footer"
 
 const Home = () => {
   const sponsors = [
@@ -46,7 +47,9 @@ const Home = () => {
             </Row>
           </Container>
         </div>
+        <Footer/>
       </div>
+      
     </>
   );
 };

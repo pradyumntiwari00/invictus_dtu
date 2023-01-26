@@ -1,0 +1,36 @@
+.footer{
+    position: fixed;
+    height: 13%;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(270.92deg, #1e1e1f 0%, #3e3ed2 100%);
+    padding: 1px;
+  }
+.element {
+    color: white;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 21px;
+  display: inline;
+  font-size: 22px;
+  width: 8em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0.5em;
+}
+.element:hover {
+  border: 0.3em solid var(--c);
+  background-color: black;
+  color: white;
+  border-radius: 0.5em;
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
+}
