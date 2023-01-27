@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-  .navbar-head{
-    display: flex;
-    justify-content: space-around;
-    background: linear-gradient(270.92deg, #da50b5 0%, #0a0a2e 100%);
-    padding: 1px;
+.navbar-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(270.92deg, #da50b5 0%, #0a0a2e 100%);
+  padding: 1px;
   }
 .element {
   font-family: 'Merriweather', serif; 
@@ -31,6 +32,7 @@
 
 }
 .element:hover {
+  font-family: 'Merriweather', serif; 
   border: 0.3em solid var(--c);
   background-color: white;
   border-radius: 0.5em;

@@ -1,21 +1,23 @@
-.summit{
-  height: 80vh;
+.team{
   background-image: url('../images/bg.png');
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 .img
 {
   margin: 7px auto;
-  height: 200px;
-  width:auto;
+  height: 400px;
+  width:400px;
 }
 .card{
   border-radius: 2em;
-  margin-top:55px;
+  margin:45px;
   height: 350px;
   width: 300px;
   background-color: black;
@@ -31,14 +33,15 @@
   color:white ;
 }
 .profile_photo{
-  object-fit: cover;
-  border-radius: 10em;
+  height: 200px;
+  width: 200px;
 }
 .name{
   text-align: center;
 }
 .desc{
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
   color: white;
+  margin-top: 8px;
 }

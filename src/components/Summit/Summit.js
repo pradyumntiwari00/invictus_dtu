@@ -9,8 +9,9 @@ const Summit = () => {
                 <div className="card"><div className="img"><img className='profile_photo' src="./logo.png" alt="" /></div><div className="name">Summit 1</div><div className="desc">Founder of XYZ</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src="./logo.png" alt="" /></div><div className="name">Summit 1</div><div className="desc">Founder of XYZ</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src="./logo.png" alt="" /></div><div className="name">Summit 1</div><div className="desc">Founder of XYZ</div> </div>
-                <Footer/>
+                
             </div>
+            <Footer/>
         </>
     )
 }
