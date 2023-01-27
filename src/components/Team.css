@@ -3,6 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -16,12 +17,12 @@
   width:400px;
 }
 .card{
-  border-radius: 2em;
+  border-radius: 80em;
   margin:45px;
   height: 350px;
   width: 300px;
   background-color: black;
-  border: 3px solid rgb(242, 76, 200);
+  border: 6px solid rgb(242, 76, 200);
 }
 .card:hover{
   transform: scale(1.1);

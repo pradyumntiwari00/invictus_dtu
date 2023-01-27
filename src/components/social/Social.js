@@ -15,7 +15,7 @@ const Social=()=>{
             <a href="https://www.linkedin.com/company/invictus-dtu/">
             <SlSocialLinkedin size={28} color='white'/></a>
             </div>
-            <div className="fb"><a href="https://www.google.com/">
+            <div className="fb"><a href="https://www.facebook.com/InvictusDtu?mibextid=ZbWKwL">
             <TfiFacebook size={28} color='white'/></a>
             </div>
          </div>

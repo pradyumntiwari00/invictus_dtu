@@ -1,11 +1,12 @@
 .summit{
-  height: 100vh;
   background-image: url('../../images/bg.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position:center;
+  background-attachment: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .img
 {
@@ -19,7 +20,8 @@
   height: 350px;
   width: 300px;
   background-color: black;
-  border: 3px solid rgb(242, 76, 200);
+  border: 6px solid rgb(242, 76, 200);
+  flex-shrink: 0;
 }
 .card:hover{
   transform: scale(1.1);

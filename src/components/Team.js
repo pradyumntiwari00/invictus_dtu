@@ -20,13 +20,23 @@ import deepak_kumar from "./teamImages/deepak_kumar.jpg";
 import harsh_kumar from "./teamImages/harsh_kumar.jpg";
 import nitesh_kumar from "./teamImages/nitesh_kumar.jpg";
 import aman_raj from "./teamImages/aman_raj.jpg";
+import pradyumn from "./teamImages/pradyumn.jpg";
+import shivansh from "./teamImages/shivansh.jpg";
+import shaswat from "./teamImages/shaswat.jpg";
+import priyansh from "./teamImages/priyansh.jpg";
+import aditya from "./teamImages/aditya.jpg";
 const Team = () => {
     return (
         <>
             <div className="team">
+                <div className="card"><div className="img"><img className='profile_photo' src={priyansh} alt="error" /></div><div className="name">Priyansh Tyagi</div><div className="desc">President</div> </div>
+                <div className="card"><div className="img"><img className='profile_photo' src={aditya} alt="error" /></div><div className="name">Aditya Kumar</div><div className="desc">Vice President</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={vidyanshu_misra} alt="error" /></div><div className="name">Vidyanshu Mishra</div><div className="desc">Treasurer</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={rachit_mimrot} alt="" /></div><div className="name">Rachit Mimrot</div><div className="desc">Joint Treasurer</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={ansh_anurag} alt="" /></div><div className="name">Ansh Anurag</div><div className="desc">Secretary</div> </div>
+                <div className="card"><div className="img"><img className='profile_photo' src={pradyumn} alt="error" /></div><div className="name">Pradyumn Tiwari</div><div className="desc">Web Development Head</div> </div>
+                <div className="card"><div className="img"><img className='profile_photo' src={shivansh} alt="error" /></div><div className="name">shivansh</div><div className="desc">Web Development Head</div> </div>
+                <div className="card"><div className="img"><img className='profile_photo' src={shaswat} alt="error" /></div><div className="name">Shaswat jain</div><div className="desc">Web Development Head</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={shubham_ahlawat} alt="" /></div><div className="name">Shubham Ahlawat</div><div className="desc">Opearations Head</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={ankur_aggarwal} alt="" /></div><div className="name">Ankur Aggarwal</div><div className="desc">Opeartions Head</div> </div>
                 <div className="card"><div className="img"><img className='profile_photo' src={Anirudh_sharma} alt="" /></div><div className="name">Anirudh Sharma</div><div className="desc">Public Relations Head</div> </div>
