@@ -4,8 +4,12 @@ import { gsap } from "gsap";
 import Social from "./social/Social";
 import Footer from "./Footer/Footer"
 import { Link } from "react-router-dom";
+import MyTimer from "./Timer";
 
 const Home = () => {
+  const time = new Date();
+  time.setSeconds(time.getSeconds() + 6);
+
   useEffect(() => {
     gsap.to(".loader", {
       opacity: "1",
@@ -64,7 +68,7 @@ const Home = () => {
         </div>
       </Link>
       <Social />
-      <div className="slider"></div>      
+      <div className="slider"></div>   
     </>
   );
 };

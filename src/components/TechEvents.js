@@ -31,6 +31,13 @@ const Hackthon_Ideathon = [
     },
 ];
 
+const macs_Events = [
+    {img: require('../images/macs1.jpeg'),idx: 1, name: "Greedy Knight", location: "", DDT: "13-15th February 2023", about: "A chess based puzzle competition in which a participant will have to collect the maximum number of coins placed on the chess board using the KNIGHT pawn."},
+    {img: require('../images/macs2.jpeg'),idx: 2, name: "De-Cyber", location: "", DDT: "13-15th February 2023", about: "A debugging and decryption based competition with a cyber war theme."},
+    {img: require('../images/macs3.jpeg'),idx: 3, name: "Chess Warfare", location: "", DDT: "13-14th February 2023", about: "An individual-based event, in which players will compete with each other in the game of chess. The tournament will follow an elimination-based system."},
+    {img: require('../images/macs4.jpeg'),idx: 4, name: "Mathletics", location: "", DDT: "13-15th February 2023", about: "A quiz involving mathematical equations and questions."},
+]
+
 const TechEvents = () => {
     return (
         <>
@@ -86,11 +93,11 @@ const TechEvents = () => {
                     </ul>
                 </div>
                 <div className="main">
-                    <h1 className='my-5 font'>Domain3</h1>
+                    <h1 className='my-5 font'>Miscellaneous</h1>
                     <ul className="cards1">
 
                         {
-                            Hackthon_Ideathon.map((element) => {
+                            macs_Events.map((element) => {
                                 return (
                                     <li className="cards_item1" key={element.idx}>
                                         <div className="card1 gradient-border">
