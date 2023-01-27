@@ -1,5 +1,6 @@
 import Tba from './Tba';
 import './TechEvents.css'
+import Footer from "./Footer/Footer"
 
 const Hackthon_Ideathon = [
     {
@@ -144,6 +145,7 @@ const TechEvents = () => {
                     </ul>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
