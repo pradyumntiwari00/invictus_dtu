@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "../Footer/Footer";
 
 const FAQs = [
   { idx: 1, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
@@ -16,14 +17,14 @@ const Faq = () => {
   return (
     <>
     <div className='back-img'>
-      <div className='text-center font my-3'>FAQ</div>
-      <div className="accordion container" id="accordionExample">
+      <div className='text-center font mt-3'>FAQ</div>
+      <div className="accordion container my-5" id="accordionExample">
         {
           FAQs.map((element) => {
             return (
-              <div className="accordion-item" key={element.idx}>
+              <div className="accordion-item faq-color" key={element.idx}>
                 <h2 className="accordion-header" id={`heading${element.idx}`}>
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${element.idx}`} aria-expanded="false" aria-controls={`collapse${element.idx}`}>
+                  <button className="accordion-button collapsed faq-color" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${element.idx}`} aria-expanded="false" aria-controls={`collapse${element.idx}`}>
                     {element.ques}
                   </button>
                 </h2>
@@ -38,6 +39,7 @@ const Faq = () => {
         }
       </div>
       </div>
+      <Footer />
     </>
   )
 }
