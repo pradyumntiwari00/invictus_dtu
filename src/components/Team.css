@@ -1,5 +1,5 @@
 .team{
-  background-image: url('../images/bg.png');
+  background-image: url('../images/sep09.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,19 +12,22 @@
 }
 .img
 {
-  margin: 7px auto;
+  margin-top: 7px auto;
+  display: flex;
+  justify-content: center;
+  
   height: 400px;
   width:400px;
 }
-.card{
-  border-radius: 80em;
+.cards {
+  border-radius: 2em;
   margin:45px;
   height: 350px;
   width: 300px;
   background-color: black;
-  border: 6px solid rgb(242, 76, 200);
+  border: 2px solid rgb(84, 76, 242);
 }
-.card:hover{
+.cards:hover{
   transform: scale(1.1);
   transition: all .2s ease-in-out;
 
