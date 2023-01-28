@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import Social from "./social/Social";
 import Footer from "./Footer/Footer";
 import { Link } from "react-router-dom";
-import MyTimer from "./Timer";
 
 const Home = () => {
   const time = new Date();
@@ -71,6 +70,7 @@ const Home = () => {
       </Link>
       <Social />
       <div className="slider"></div>
+      <Footer />
     </>
   );
 };
