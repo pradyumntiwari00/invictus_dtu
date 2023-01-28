@@ -5,8 +5,8 @@
 .navbar-head{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background: linear-gradient(270.92deg, #da50b5 0%, #0a0a2e 100%);
+  justify-content: space-between;
+  background-color: black;
   padding: 1px;
   }
 .element {
@@ -42,4 +42,13 @@
 .element:hover a {
   text-decoration: none;
   color: black !important;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-item{
+  padding: auto;
+  display: inline-block;
 }

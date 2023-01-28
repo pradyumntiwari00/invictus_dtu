@@ -20,6 +20,11 @@ import deepak_kumar from "./teamImages/deepak_kumar.jpg";
 import harsh_kumar from "./teamImages/harsh_kumar.jpg";
 import nitesh_kumar from "./teamImages/nitesh_kumar.jpg";
 import aman_raj from "./teamImages/aman_raj.jpg";
+import pradyumn from "./teamImages/pradyumn.jpg";
+import shivansh from "./teamImages/shivansh.jpg";
+import shaswat from "./teamImages/shaswat.jpg";
+import priyansh from "./teamImages/priyansh.jpg";
+import aditya from "./teamImages/aditya.jpg";
 const Team = () => {
   return (
     <>
@@ -162,5 +167,3 @@ const Team = () => {
     </>
   );
 };
-
-export default Team;
