@@ -1,7 +1,6 @@
 footer{
     position: relative;
     width: 100%;
-    /* background:linear-gradient(#1a21d9,#ef6ced); */
     background-color: black;
     min-height: 60px;
     display: flex;
@@ -36,8 +35,7 @@ ul {
 img {
 max-width: 100%;
 height: auto;
-}
-.footer-section {
+}.footer-section {
 background-color: black;
 position: relative;
 overflow: hidden;

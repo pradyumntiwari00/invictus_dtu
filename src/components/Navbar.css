@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 .navbar-head{
   background-color: black;
@@ -19,6 +16,12 @@
   overflow: hidden;
   z-index: 1;
   margin: 0.5em;
+}
+.nav-item a{
+  color: white !important;
+  font-weight: 300;
+  text-decoration: none;
+
 }
 .nav-item:hover {
   font-family: 'Merriweather', serif; 
