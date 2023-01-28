@@ -1,7 +1,7 @@
 import React from "react";
 import "./Highlight.css";
 import Rightimage from "./Rightimage.js";
-import Footer from "./Footer/Footer"
+import Footer from "./Footer/Footer";
 
 const Highlights = () => {
   return (
@@ -23,7 +23,7 @@ const Highlights = () => {
         <Rightimage className="rightcomponent" />
         <Rightimage className="rightcomponent" />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

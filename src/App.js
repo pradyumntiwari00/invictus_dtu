@@ -5,23 +5,24 @@ import Team from "./components/Team";
 import Sponsors from "./components/Sponsors";
 import Navbar from "./components/Navbar";
 import Highlights from "./components/Highlights";
-import Summit from "./components/Summit/Summit.js";import TechEvents from "./components/TechEvents";
+import Summit from "./components/Summit/Summit.js";
+import TechEvents from "./components/TechEvents";
 import Faq from "./components/FAQ/Faq";
 
 function App() {
   return (
     <Router>
-      { <Navbar/> }
+      {<Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="team" element={<Team />} />
         <Route path="sponsors" element={<Sponsors />} />
-        <Route path="summits" element={<Summit/>} />
-        <Route path="hackathonIdethon" element={<TechEvents/>} />
+        <Route path="summits" element={<Summit />} />
+        <Route path="hackathonIdethon" element={<TechEvents />} />
         <Route path="highlights" element={<Highlights />} />
         <Route path="faq" element={<Faq />} />
       </Routes>
-    </Router>  
+    </Router>
   );
 }
 

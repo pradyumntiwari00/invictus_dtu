@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import { gsap } from "gsap";
 import Social from "./social/Social";
-import Footer from "./Footer/Footer"
+import Footer from "./Footer/Footer";
 import { Link } from "react-router-dom";
 import MyTimer from "./Timer";
 
@@ -38,10 +38,12 @@ const Home = () => {
       <div className="home">
         <div className="home_content">
           <img src={require("../images/logo.png")} className="logo" alt="" />
-          <h1 className="date">13<sup>th</sup>-15<sup>th</sup> February</h1>
+          <h1 className="date">
+            13<sup>th</sup>-15<sup>th</sup> February
+          </h1>
         </div>
         <div className="backdrop"></div>
-        
+
         <div className="ocean">
           <div className="wave"></div>
           <div className="wave"></div>
@@ -57,10 +59,10 @@ const Home = () => {
           />
         </div>
       </div>
-      <Link to='/faq'>
-        <div className='faq'>
-          <button className='btn'>
-            F   <br />
+      <Link to="/faq">
+        <div className="faq">
+          <button className="btn">
+            F <br />
             A <br />
             Q <br />
             S <br />
@@ -68,7 +70,7 @@ const Home = () => {
         </div>
       </Link>
       <Social />
-      <div className="slider"></div>   
+      <div className="slider"></div>
     </>
   );
 };
