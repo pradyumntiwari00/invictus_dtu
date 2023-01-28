@@ -37,4 +37,39 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+ export default Navbar;
+// import { useRef } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
+// import { Link } from 'react-router-dom'
+// import "./Navbar.css";
+
+// function Navbar() {
+// 	const navRef = useRef();
+
+// 	const showNavbar = () => {
+// 		navRef.current.classList.toggle("responsive_nav");
+// 	};
+
+// 	return (
+// 		<header>
+// 			<nav ref={navRef}>
+//                <a href="/summits">Home</a>
+//               <Link to="/">Home</Link>
+//               <Link to="/hackathonIdethon" className="">EVENTS</Link>
+//               <Link to="/summits" className="">SUMMITS</Link>
+//               <Link to="/sponsors" className="">SPONSORS</Link>
+//               <Link to="/team" className="">OUR TEAM</Link>
+// 				<button
+// 					className="nav-btn nav-close-btn"
+// 					onClick={showNavbar}>
+// 					<FaTimes />
+// 				</button>
+// 			</nav>
+// 			<button className="nav-btn" onClick={showNavbar}>
+// 				<FaBars />
+// 			</button>
+// 		</header>
+// 	);
+// }
+
+// export default Navbar;
