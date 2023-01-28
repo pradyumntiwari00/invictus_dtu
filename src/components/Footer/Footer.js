@@ -18,16 +18,14 @@ export default function App() {
                   />
                 </a>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever.
+                  Delhi Technological University
                 </p>
                 <ul className="company-footer-contact-list">
                   <li>
-                    <i className="fas fa-phone"></i>0123456789
+                    <i className="fas fa-phone"></i>Aditya Kumar :+91-8210744867
                   </li>
                   <li>
-                    <i className="fas fa-clock"></i>Mon - Sat 8.00 - 18.00
+                    <i className="fas fa-phone"></i>Ansh Anurag : +91-9717325506
                   </li>
                 </ul>
               </div>
@@ -37,22 +35,17 @@ export default function App() {
                 <h5 className="widget-title">Follow our socials</h5>
                 <ul className="courses-link-list">
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/invictus_dtu/">
                       <i className="fas fa-long-arrow-alt-right"></i>Instagram
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="fas fa-long-arrow-alt-right"></i>Twitter
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/InvictusDtu?mibextid=ZbWKwL">
                       <i className="fas fa-long-arrow-alt-right"></i>Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/company/invictus-dtu/">
                       <i className="fas fa-long-arrow-alt-right"></i>Linkedin
                     </a>
                   </li>
