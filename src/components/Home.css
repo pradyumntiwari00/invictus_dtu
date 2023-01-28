@@ -136,7 +136,7 @@
 .ocean {
   height: 120px; /* change the height of the waves here */
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;

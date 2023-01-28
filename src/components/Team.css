@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .team{
   background-image: url('../images/sep09.jpg');
   background-position: center;
@@ -41,19 +43,19 @@
 .name{
   font-size: xx-large;
   color:white ;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .profile_photo{
   height: 200px;
   width: 200px;
-}
-.name{
-  text-align: center;
 }
 .desc{
   text-align: center;
   font-size: x-large;
   color: white;
   margin-top: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .topdiv{
   margin-top: 150px;

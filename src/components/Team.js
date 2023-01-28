@@ -130,7 +130,7 @@ const Team = () => {
             <div className="img">
               <img className="profile_photo" src={sagar_yadav} alt="" />
             </div>
-            <div className="name">Chacha Yadav</div>
+            <div className="name">Sagar Yadav</div>
             <div className="desc">Public Relations Head</div>{" "}
           </div>
           <div className="cards">

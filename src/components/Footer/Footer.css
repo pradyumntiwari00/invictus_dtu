@@ -1,7 +1,8 @@
 footer{
     position: relative;
     width: 100%;
-    background:linear-gradient(#1a21d9,#ef6ced);
+    /* background:linear-gradient(#1a21d9,#ef6ced); */
+    background-color: black;
     min-height: 60px;
     display: flex;
     justify-content: center;
@@ -35,8 +36,9 @@ ul {
 img {
 max-width: 100%;
 height: auto;
-}.footer-section {
-background:linear-gradient(271.67deg, #650C94 -102.27%, #071A5C 204.26%);
+}
+.footer-section {
+background-color: black;
 position: relative;
 overflow: hidden;
 z-index: 9;
@@ -49,7 +51,7 @@ left: -18%;
 width: 44%;
 height: 257%;
 transform: rotate(54deg);
-background: linear-gradient(274.06deg, #650C94 56.7%, #071A5C 100%);
+background: linear-gradient(274.06deg, #7a07b9 56.7%, #040404 100%);
 -webkit-transform: rotate(54deg);
 -moz-transform: rotate(54deg);
 -ms-transform: rotate(54deg);
@@ -59,7 +61,7 @@ z-index: -10;
 .footer-section:after {
 position: absolute;
 content: '';
-background: linear-gradient(274.06deg, #650C94 56.7%, #071A5C 100%);
+background: linear-gradient(274.06deg, #7a07b9 56.7%, #040404 100%);
 top: -24%;
 right: 4%;
 width: 26%;
