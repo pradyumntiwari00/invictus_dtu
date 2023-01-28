@@ -91,7 +91,7 @@ const Team = () => {
             <div className="img">
               <img className="profile_photo" src={shaswat} alt="error" />
             </div>
-            <div className="name">Shaswat jain</div>
+            <div className="name">Shashwat Jain</div>
             <div className="desc">Web Development Head</div>{" "}
           </div>
         </div>
