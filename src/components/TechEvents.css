@@ -1,6 +1,7 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Design */
 *,
 *::before,
@@ -22,21 +23,19 @@
 }
 
 .font{
-  font-family: 'Aquire';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 52px;
 }
 
 .gradient-border {
-  border: 5px solid rgb(84, 76, 242);
+  border: 3px solid rgb(84, 76, 242);
   border-radius: 40px;
 }
 
 .main{
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 h1 {
@@ -49,36 +48,29 @@ h1 {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-  background-color: #190004;
+  background-color: black;
 }
 
 .btn1 {
-  color: #ffffff;
+  background-color: white;
+  text-align: center;
+  color: #010101;
   padding: 0.8rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-  text-decoration: none;
+  font-size: 25px;
   border-radius: 8px;
   font-weight: 400;
-  width: 100%;
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-  margin: 1rem;
 }
 
 .btn1:hover {
-  background-color: rgba(255, 255, 255, 0.12);
-  color: black;
-  text-decoration: none;
+  background-color: rgba(245, 244, 247, 0.12);
+  color: rgb(248, 242, 242);
 }
-
 .cards1 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .card1:hover{
@@ -89,7 +81,7 @@ h1 {
 
 .cards_item1 {
   display: flex;
-  height: 100%;
+  height: 645px;
   padding: 1rem;
 }
 
@@ -108,20 +100,26 @@ h1 {
 .card1 {
   background-color: white;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 .card_content1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding: 1rem;
-  background: linear-gradient(to bottom left, #190004 40%, #e2915f 100%);
+  height: 100%;
+  background-color: black;
 }
 
 .card_title1 {
+  margin-top:10px;
+  margin-bottom: 10px;
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: x-large;
+  text-align: center;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -129,11 +127,13 @@ h1 {
 }
 
 .card_text1 {
-  color: #ffffff;
-  font-size: 0.875rem;
+  font-family: 'Roboto', sans-serif;
+  color: #fcfcfc;
+  text-align: center;
+  font-size:large;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-top: 5px;
 }
 .made_by1{
   font-weight: 400;
