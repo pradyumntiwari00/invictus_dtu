@@ -33,7 +33,7 @@
   height: 350px;
   width: 300px;
   background-color: black;
-  border: 2px solid rgb(84, 76, 242);
+  border: 2px solid blue;
 }
 .cards:hover{
   transform: scale(1.1);

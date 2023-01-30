@@ -8,7 +8,7 @@ import shubham_ahlawat from "./teamImages/shubham_ahlawat.jpg";
 import ankur_aggarwal from "./teamImages/ankur_aggarwal.jpg";
 import Anirudh_sharma from "./teamImages/anirudh_sharma.jpg";
 import chhitize_kumar from "./teamImages/chhitize_kumar.jpg";
-import sagar_yadav from "./teamImages/sagar_yadav.jpg";
+import sagar_yadav from "./teamImages/sagar.JPEG";
 import shubhansh_yadav from "./teamImages/shubhansh_yadav.jpg";
 import girish_barwal from "./teamImages/girish_barwal.jpg";
 import saujanya_sood from "./teamImages/saujanya_sood.jpg";
@@ -101,14 +101,14 @@ const Team = () => {
               <img className="profile_photo" src={shubham_ahlawat} alt="" />
             </div>
             <div className="name">Shubham Ahlawat</div>
-            <div className="desc">Opearations Head</div>{" "}
+            <div className="desc">Operations Head</div>{" "}
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={ankur_aggarwal} alt="" />
             </div>
             <div className="name">Ankur Aggarwal</div>
-            <div className="desc">Opeartions Head</div>{" "}
+            <div className="desc">Operations Head</div>{" "}
           </div>
         </div>
         <div className="subteam">
@@ -128,18 +128,19 @@ const Team = () => {
           </div>
           <div className="cards">
             <div className="img">
-              <img className="profile_photo" src={sagar_yadav} alt="" />
-            </div>
-            <div className="name">Sagar Yadav</div>
-            <div className="desc">Public Relations Head</div>{" "}
-          </div>
-          <div className="cards">
-            <div className="img">
               <img className="profile_photo" src={shubhansh_yadav} alt="" />
             </div>
             <div className="name">Shubhansh Yadav</div>
             <div className="desc">Public Relations Head</div>{" "}
           </div>
+          <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={sagar_yadav} alt="" />
+            </div>
+            <div className="name">Sagar Yadav</div>
+            <div className="desc">Public Relations Head</div>{" "}
+          </div>
+          
         </div>
         <div className="subteam">
           <div className="cards">
