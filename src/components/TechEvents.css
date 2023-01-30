@@ -26,16 +26,16 @@
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 52px;
+  color: blue;
 }
 
 .gradient-border {
   border: 3px solid rgb(84, 76, 242);
-  border-radius: 40px;
 }
 
 .main{
-  max-width: 1200px;
-  margin: 30px auto;
+  width: 100%;
+  margin: 40px auto;
 }
 
 h1 {
@@ -43,7 +43,6 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
-
 .img1 {
   height: auto;
   max-width: 100%;
@@ -60,7 +59,7 @@ h1 {
   border-radius: 8px;
   font-weight: 400;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 3px solid blue;
 }
 
 .btn1:hover {
@@ -75,14 +74,13 @@ h1 {
 
 .card1:hover{
   transform: scale(1.1);
-  transition: all .2s ease-in-out;
-
+  transition: all .1s ease-in-out;
 }
 
 .cards_item1 {
   display: flex;
-  height: 645px;
-  padding: 1rem;
+  height: 700px;
+  padding: 3rem;
 }
 
 @media (min-width: 40rem) {
@@ -117,10 +115,10 @@ h1 {
 .card_title1 {
   margin-top:10px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: blue;
   font-size: x-large;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin-bottom: 1rem;
@@ -128,16 +126,15 @@ h1 {
 
 .card_text1 {
   font-family: 'Roboto', sans-serif;
-  color: #fcfcfc;
+  color: blue;
   text-align: center;
   font-size:large;
   line-height: 1.5;
-  font-weight: 400;
-  margin-top: 5px;
+  font-weight: 200;
 }
-.made_by1{
+/* .made_by1{
   font-weight: 400;
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
-}
+} */

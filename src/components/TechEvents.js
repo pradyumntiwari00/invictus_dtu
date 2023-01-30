@@ -174,7 +174,7 @@ const TechEvents = () => {
                     </ul>
                 </div>
                 <div className="main">
-                    <h1 className='my-5 font'>Hackthon and Ideathon</h1>
+                    <h1 className='my-5 font'>Hackathon and Ideathon</h1>
                     <ul className="cards1">
 
                         {
