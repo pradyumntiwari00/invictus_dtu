@@ -35,14 +35,14 @@ const Team = () => {
               <img className="profile_photo" src={priyansh} alt="error" />
             </div>
             <div className="name">Priyansh Tyagi</div>
-            <div className="desc">President</div>{" "}
+            <div className="desc">President</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={aditya} alt="error" />
             </div>
             <div className="name">Aditya Kumar</div>
-            <div className="desc">Vice President</div>{" "}
+            <div className="desc">Vice President</div>
           </div>
         </div>
         <div className="subteam">
@@ -55,21 +55,21 @@ const Team = () => {
               />
             </div>
             <div className="name">Vidyanshu Mishra</div>
-            <div className="desc">Treasurer</div>{" "}
+            <div className="desc">Treasurer</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={rachit_mimrot} alt="" />
             </div>
             <div className="name">Rachit Mimrot</div>
-            <div className="desc">Joint Treasurer</div>{" "}
+            <div className="desc">Joint Treasurer</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={ansh_anurag} alt="" />
             </div>
             <div className="name">Ansh Anurag</div>
-            <div className="desc">Secretary</div>{" "}
+            <div className="desc">Secretary</div>
           </div>
         </div>
         <div className="subteam">
@@ -78,21 +78,21 @@ const Team = () => {
               <img className="profile_photo" src={pradyumn} alt="error" />
             </div>
             <div className="name">Pradyumn Tiwari</div>
-            <div className="desc">Web Development Head</div>{" "}
+            <div className="desc">Web Development Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={shivansh} alt="error" />
             </div>
             <div className="name">shivansh</div>
-            <div className="desc">Web Development Head</div>{" "}
+            <div className="desc">Web Development Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={shaswat} alt="error" />
             </div>
             <div className="name">Shashwat Jain</div>
-            <div className="desc">Web Development Head</div>{" "}
+            <div className="desc">Web Development Head</div>
           </div>
         </div>
         <div className="subteam">
@@ -101,14 +101,35 @@ const Team = () => {
               <img className="profile_photo" src={shubham_ahlawat} alt="" />
             </div>
             <div className="name">Shubham Ahlawat</div>
-            <div className="desc">Operations Head</div>{" "}
+            <div className="desc">Operations Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={ankur_aggarwal} alt="" />
             </div>
             <div className="name">Ankur Aggarwal</div>
-            <div className="desc">Operations Head</div>{" "}
+            <div className="desc">Operations Head</div>
+          </div>
+          <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={arjun_chikara} alt="" />
+            </div>
+            <div className="name">Arjun Chikara</div>
+            <div className="desc">Operations Head</div>
+          </div>
+          <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={sidakpreet} alt="" />
+            </div>
+            <div className="name">Sidakpreet Singh</div>
+            <div className="desc">Operations Head</div>
+          </div>
+          <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={harsh_kumar} alt="" />
+            </div>
+            <div className="name">Harsh Kumar</div>
+            <div className="desc">Operations Head</div>
           </div>
         </div>
         <div className="subteam">
@@ -117,28 +138,28 @@ const Team = () => {
               <img className="profile_photo" src={Anirudh_sharma} alt="" />
             </div>
             <div className="name">Anirudh Sharma</div>
-            <div className="desc">Public Relations Head</div>{" "}
+            <div className="desc">Public Relations Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={chhitize_kumar} alt="" />
             </div>
             <div className="name">Chhitize Kumar</div>
-            <div className="desc">Public Relations Head</div>{" "}
+            <div className="desc">Public Relations Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={shubhansh_yadav} alt="" />
             </div>
             <div className="name">Shubhansh Yadav</div>
-            <div className="desc">Public Relations Head</div>{" "}
+            <div className="desc">Public Relations Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={sagar_yadav} alt="" />
             </div>
             <div className="name">Sagar Yadav</div>
-            <div className="desc">Public Relations Head</div>{" "}
+            <div className="desc">Public Relations Head</div>
           </div>
           
         </div>
@@ -148,14 +169,14 @@ const Team = () => {
               <img className="profile_photo" src={girish_barwal} alt="" />
             </div>
             <div className="name">Girish Barwal</div>
-            <div className="desc">Social Media Head</div>{" "}
+            <div className="desc">Social Media Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={saujanya_sood} alt="" />
             </div>
             <div className="name">Saujanya Sood</div>
-            <div className="desc">Social Media Head</div>{" "}
+            <div className="desc">Social Media Head</div>
           </div>
         </div>
         <div className="subteam">
@@ -164,60 +185,39 @@ const Team = () => {
               <img className="profile_photo" src={himanshu_kumar} alt="" />
             </div>
             <div className="name">Himanshu Kumar</div>
-            <div className="desc">Design Head</div>{" "}
+            <div className="desc">Design Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={ishan_bhateja} alt="" />
             </div>
             <div className="name">Ishan Bhateja</div>
-            <div className="desc">Content Head</div>{" "}
-          </div>
-          <div className="cards">
-            <div className="img">
-              <img className="profile_photo" src={arjun_chikara} alt="" />
-            </div>
-            <div className="name">Arjun Chikara</div>
-            <div className="desc">Operations Head</div>{" "}
+            <div className="desc">Content Head</div>
           </div>
         </div>
         <div className="subteam">
-          <div className="cards">
-            <div className="img">
-              <img className="profile_photo" src={sidakpreet} alt="" />
-            </div>
-            <div className="name">Sidakpreet Singh</div>
-            <div className="desc">Logistics Head</div>{" "}
-          </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={deepak_kumar} alt="" />
             </div>
             <div className="name">Deepak Kumar</div>
-            <div className="desc">Logistics Head</div>{" "}
+            <div className="desc">Logistics Head</div>
           </div>
         </div>
         <div className="subteam">
           <div className="cards">
             <div className="img">
-              <img className="profile_photo" src={harsh_kumar} alt="" />
-            </div>
-            <div className="name">Harsh Kumar</div>
-            <div className="desc">Corporate Head</div>{" "}
-          </div>
-          <div className="cards">
-            <div className="img">
               <img className="profile_photo" src={nitesh_kumar} alt="" />
             </div>
             <div className="name">Nitesh Kumar</div>
-            <div className="desc">Corporate Head</div>{" "}
+            <div className="desc">Corporate Head</div>
           </div>
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={aman_raj} alt="" />
             </div>
             <div className="name">Aman Raj</div>
-            <div className="desc">External Affairs</div>{" "}
+            <div className="desc">External Affairs</div>
           </div>
         </div>
         <Footer />
