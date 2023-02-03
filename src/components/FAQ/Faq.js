@@ -17,7 +17,7 @@ const Faq = () => {
   return (
     <>
     <div className='back-img'>
-      <div className='text-center font mt-3'>FAQ</div>
+      <div className='text-center font mt-5 pt-5'>FAQ</div>
       <div className="accordion container my-5" id="accordionExample">
         {
           FAQs.map((element) => {
