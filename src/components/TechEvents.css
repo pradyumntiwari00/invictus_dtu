@@ -79,7 +79,7 @@ h1 {
 
 .cards_item1 {
   display: flex;
-  height: 700px;
+  height: auto;
   padding: 3rem;
 }
 

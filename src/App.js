@@ -18,7 +18,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="sponsors" element={<Sponsors />} />
         <Route path="summits" element={<Summit />} />
-        <Route path="hackathonIdethon" element={<TechEvents />} />
+        <Route path="events" element={<TechEvents />} />
         <Route path="highlights" element={<Highlights />} />
         <Route path="faq" element={<Faq />} />
       </Routes>
