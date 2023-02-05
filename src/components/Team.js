@@ -25,11 +25,21 @@ import shivansh from "./teamImages/shivansh.jpg";
 import shaswat from "./teamImages/shaswat.jpg";
 import priyansh from "./teamImages/priyansh.jpg";
 import aditya from "./teamImages/aditya.jpg";
+import rachna from "./teamImages/rachna.jpg";
 const Team = () => {
   return (
     <>
       <div className="team">
         <div className="subteam topdiv">
+          <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={rachna} alt="error" />
+            </div>
+            <div className="name">Prof. Rachana Garg</div>
+            <div className="desc">Chairperson</div>
+          </div>
+        </div>
+        <div className="subteam">
           <div className="cards">
             <div className="img">
               <img className="profile_photo" src={priyansh} alt="error" />
