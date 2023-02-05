@@ -96,7 +96,7 @@ h1 {
 
 .card1 {
   background-color: white;
-  border-radius: 6%;
+  border-radius: 5%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
