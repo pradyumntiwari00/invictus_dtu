@@ -30,12 +30,11 @@
 }
 
 .gradient-border {
-  border: 3px solid blue;
+  border: 2px solid blue;
 }
-
 .main{
   width: 100%;
-  margin: 40px auto;
+  margin: 7% auto;
 }
 
 h1 {
@@ -80,12 +79,12 @@ h1 {
 .cards_item1 {
   display: flex;
   height: auto;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 @media (min-width: 40rem) {
   .cards_item1 {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -97,7 +96,7 @@ h1 {
 
 .card1 {
   background-color: white;
-  border-radius: 45px;
+  border-radius: 6%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -114,7 +113,7 @@ h1 {
 
 .card_title1 {
   margin-top:10px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: white;
   font-size: x-large;
   text-align: center;
@@ -123,7 +122,6 @@ h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
-
 .card_text1 {
   font-family: 'Roboto', sans-serif;
   color: white;
