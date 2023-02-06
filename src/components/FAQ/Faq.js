@@ -9,7 +9,6 @@ const FAQs = [
   { idx: 4, ques: "Are on-spot registrations allowed during the fest?", ans: "On-spot registrations may or may not be allowed depending on the number of registered participants. We suggest that you register online as soon as possible to prevent any unforeseen circumstances." },
   { idx: 5, ques: "What things are not allowed in the concert?", ans: "Pointed objects like scissors, knives, etc are not allowed. Make sure you bring your friends along, though! There are arrangements inside for water, along with food courts. So there won’t be any need to carry water!.You can buy food from food courts at the OAT area" },
   { idx: 6, ques: "Are vehicles allowed inside?", ans: "No, vehicles are not allowed inside university campus." },
-  { idx: 7, ques: "ques1", ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?" },
 ]
 
 const Faq = () => {
