@@ -63,13 +63,13 @@ const Logo = styled.h1`
 
 const Menu = styled.ul`
   display: flex;
-  width: 40%;
+  width: 60%;
   justify-content: space-around;
 
   @media screen and (max-width: 1200px) {
-    width: 50%;
+    width: 70%;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     display: none;
   }
 `;
@@ -112,7 +112,7 @@ const Burger = styled.div`
   display: block;
   cursor: pointer;
 
-  @media (min-width: 769px) {
+  @media (min-width: 869px) {
     display: none;
   }
 `;
@@ -147,7 +147,7 @@ const Overlay = styled.div`
   transition: width 0.4s ease-in-out;
   z-index:10;
 
-  @media (min-width: 769px) {
+  @media (min-width: 869px) {
     display: none;
   }
 `;
