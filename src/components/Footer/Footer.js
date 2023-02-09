@@ -73,7 +73,7 @@ export default function App() {
                   </li>
                   <li>
                     <div className="small-post-item">
-                      <Link to="/hackathonIdethon" className="post-date">
+                      <Link to="/events" className="post-date">
                         Events
                       </Link>
                     </div>
