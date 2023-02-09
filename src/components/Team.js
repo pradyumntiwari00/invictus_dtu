@@ -230,8 +230,9 @@ const Team = () => {
             <div className="desc">External Affairs</div>
           </div>
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </>
   );
 };
