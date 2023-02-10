@@ -26,6 +26,7 @@ import shaswat from "./teamImages/shaswat.jpg";
 import priyansh from "./teamImages/priyansh.jpg";
 import aditya from "./teamImages/aditya.jpg";
 import rachna from "./teamImages/rachna.jpg";
+import sak from "./teamImages/sak.jpg";
 const Team = () => {
   return (
     <>
@@ -102,6 +103,15 @@ const Team = () => {
               <img className="profile_photo" src={shaswat} alt="error" />
             </div>
             <div className="name">Shashwat Jain</div>
+            <div className="desc">Web Development Head</div>
+          </div>
+        </div>
+        <div className="subteam">
+        <div className="cards">
+            <div className="img">
+              <img className="profile_photo" src={sak} alt="error" />
+            </div>
+            <div className="name">S anantakrisnan</div>
             <div className="desc">Web Development Head</div>
           </div>
         </div>
