@@ -1,0 +1,524 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: SPONSORS.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: feet
+Artboard Dimensions: 10 ft x 30 ft
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Futura Medium (TrueType)
+Futura Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Chess.com/php2z9LbY.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 403K, 544 by 152 pixels
+Dimensions: 598.215 by 167.148 points 
+Resolution: 65.475 by 65.475 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Royal Enfield/8.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 4882K, 1000 by 1000 pixels
+Dimensions: 260.465 by 260.465 points 
+Resolution: 276.428 by 276.428 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/front_pocket-removebg-preview.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 864.125 by 864.125 points 
+Resolution: 41.661 by 41.661 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Campus Karma Banner - 956 x 367.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1713K, 956 by 367 pixels
+Dimensions: 312.857 by 120.103 points 
+Resolution: 220.011 by 220.011 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Blockadda/BA_Logo_Blue_On_White (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 6083K, 2685 by 464 pixels
+Dimensions: 289.525 by 50.033 points 
+Resolution: 667.714 by 667.714 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (7).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 251.361 by 251.361 points 
+Resolution: 309.356 by 309.356 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Notice Bard/NoticeBard Logo NEW.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 428K, 646 by 136 pixels
+Dimensions: 545.715 by 114.887 points 
+Resolution: 85.231 by 85.231 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Techstory/1_CcBzXN2l0rOabzGdXBZI4g.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 3966K, 1200 by 677 pixels
+Dimensions: 269.716 by 152.165 points 
+Resolution: 320.338 by 320.338 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Youth Incorporated/youth incop.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 478K, 544 by 180 pixels
+Dimensions: 309.531 by 102.418 points 
+Resolution: 126.54 by 126.54 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Amar Ujala/Untitled design (11).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 13808K, 2000 by 1414 pixels
+Dimensions: 268.924 by 190.13 points 
+Resolution: 535.466 by 535.466 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/SachKahoon/sach kahoon logo Final.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 21300K, 3857 by 1131 pixels
+Dimensions: 256.964 by 75.35 points 
+Resolution: 1080.713 by 1080.713 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Mtv/MTV New TriColor Logo (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 555K, 391 by 291 pixels
+Dimensions: 309.236 by 230.148 points 
+Resolution: 91.037 by 91.037 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (8).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 298.128 by 298.128 points 
+Resolution: 260.828 by 260.828 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Motilal oswal/download (12).png
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 196K, 376 by 134 pixels
+Dimensions: 316.77 by 112.891 points 
+Resolution: 85.463 by 85.463 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Trading view/Untitled design (6).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 4882K, 1000 by 1000 pixels
+Dimensions: 647.645 by 647.645 points 
+Resolution: 111.172 by 111.172 pixels per inch
+
+
+/Users/hemangsinha/Downloads/logo_variants-white-25005.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1831K, 1000 by 375 pixels
+Dimensions: 736.538 by 276.202 points 
+Resolution: 97.755 by 97.755 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Bank of Baroda/BOB LOGO.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 6328K, 1800 by 720 pixels
+Dimensions: 669.014 by 267.606 points 
+Resolution: 193.718 by 193.718 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Bank of Baroda/BOB LOGO.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 6328K, 1800 by 720 pixels
+Dimensions: 669.014 by 267.606 points 
+Resolution: 193.718 by 193.718 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 229.544 by 229.544 points 
+Resolution: 338.758 by 338.758 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/cc-logo.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 2212K, 1084 by 418 pixels
+Dimensions: 548.326 by 211.439 points 
+Resolution: 142.339 by 142.339 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (3).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 332.626 by 332.626 points 
+Resolution: 233.776 by 233.776 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Clovia/Clovia_logo_PNG_(2).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1280K, 512 by 512 pixels
+Dimensions: 237.34 by 237.34 points 
+Resolution: 155.322 by 155.322 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Logos/Beardo/berado_logo_black.jpg
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 15984K, 3000 by 1364 pixels
+Dimensions: 476.935 by 216.846 points 
+Resolution: 452.892 by 452.892 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 345.032 by 345.032 points 
+Resolution: 225.37 by 225.37 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (2).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 560.86 by 560.86 points 
+Resolution: 138.644 by 138.644 pixels per inch
+
+
+/Users/hemangsinha/Downloads/Invictus Logo (1) (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 164355K, 7699 by 4372 pixels
+Dimensions: 670.66 by 380.845 points 
+Resolution: 826.541 by 826.541 pixels per inch
+
+
+/Users/hemangsinha/Desktop/realistic-neon-lights-background/5287326.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 4
+Size: 17578K, 3000 by 2000 pixels
+Dimensions: 1726.081 by 2592 points 
+Resolution: 125.139 by 55.556 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (5).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 371.154 by 371.154 points 
+Resolution: 209.509 by 209.509 pixels per inch
+
+
+/Users/hemangsinha/Downloads/20230202_033421_0000.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 1220K, 500 by 500 pixels
+Dimensions: 689.367 by 689.367 points 
+Resolution: 52.222 by 52.222 pixels per inch
+
+
+/Users/hemangsinha/Downloads/New Project (6).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 6
+Size: 5695K, 1080 by 1080 pixels
+Dimensions: 669.012 by 669.012 points 
+Resolution: 116.231 by 116.231 pixels per inch
