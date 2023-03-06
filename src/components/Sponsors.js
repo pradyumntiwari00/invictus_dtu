@@ -6,7 +6,7 @@ import Footer from "./Footer/Footer"
 const Home = () => {
   const sponsors = [
     { img: require('./SponsorImages/All india radio/pngegg.png') },
-    { img: require('./SponsorImages/Amar Ujala/Untitled design (11).png') },
+    { img: require('./SponsorImages/Amar Ujala/Amar Ujala App Download.png') },
     { img: require('./SponsorImages/Bank of Baroda/BOB LOGO.png') },
     { img: require('./SponsorImages/Beardo/berado_logo_black.jpg') },
     { img: require('./SponsorImages/Blockadda/BA_Logo_Blue_On_White (1).png') },
@@ -30,6 +30,7 @@ const Home = () => {
     { img: require('./SponsorImages/Trading view/Untitled design (6).png')},
     { img: require('./SponsorImages/Unstop/2.png')},
     { img: require('./SponsorImages/Youth Incorporated/youth incop.png')},
+    {img : require('./SponsorImages/Firkee.in/firkee-logo.png')},
   ];
   return (
     <>
